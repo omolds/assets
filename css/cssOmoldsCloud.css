@@ -9544,18 +9544,11 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 }
 
-
-
-
 .inputLargo {
 	width: 100%;
 	color: #808080;
 }
 
-.h2 p {
-	
-	color: #f6f038;
-}
 
 /* @group FOOTER OMOLDS */
 
@@ -9632,20 +9625,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 /* @end */
 
-.txtsBlancos {
-  color:#fff;
-  text-align:center;
-}
 
-.txtsAzules {
-  color:#223D8D;
-  text-align:center;
-}
-
-.txtsBlancos.titCalifique {
-  margin-top:7px;
-  margin-bottom:7px;
-}
 
 .headerAgenteMovil {
   padding:12px;
@@ -9857,13 +9837,39 @@ hr {
 
 }
 
+/* CRUD */
 
 
+.espaciosPestanas {
+  margin-bottom:0;
+  margin-top:5%;
+  color:#ffffff;
+  padding:7px;
+/*background-color: #00f038;*/
+}
+
+/* @group TEXTOS Y TITULOS */
+
+/* TEXTOS Y TITULOS */
 
 
+.txtsClaros {
+  color:#fff;
+  text-align:center;
+}
 
+.txtsOscurosColor {
+  color: #00ed00;
+  text-align:center;
+}
 
+.txtsBlancos.titCalifique {
+  margin-top:7px;
+  margin-bottom:7px;
+	color: #0f0;
+}
 
+/* @end */
 
 
 /*FIN*/
