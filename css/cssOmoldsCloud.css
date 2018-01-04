@@ -4555,6 +4555,15 @@ button.close {
   border-bottom:1px solid #e9ecef;
 }
 
+.modal-header .close{
+  padding: 0;
+  margin: 0;
+  }
+  
+.modal-header .close span{
+  font-size:35px;
+}
+
 .modal-title {
   margin-bottom:0;
   line-height:1.5;
@@ -9608,8 +9617,10 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   width:50px;
   position:absolute;
   margin-left:-65px;
-  fill:#820639;
+  fill:#ff0060;
 }
+
+
 
 .headerOmolds .tituloProductoOM {
   font-family:'Barlow Semi Condensed', sans-serif;
@@ -9756,17 +9767,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   margin-bottom:0;
 }
 
-.sombraModales {
-  background-color:#fff;
-  width:100%;
-  position:absolute;
-  height:100%;
-  z-index:50;
-  opacity:0.9;
-  color:#fff;
-  display:block;
-  top:0;
-}
 
 .modalStickers {
   background-color:#223D8D;
@@ -9848,9 +9848,9 @@ hr {
 /*background-color: #00f038;*/
 }
 
-/* @group TEXTOS Y TITULOS */
-
 /* TEXTOS Y TITULOS */
+
+/* @group TEXTOS Y TITULOS */
 
 
 .txtsClaros {
@@ -9859,8 +9859,7 @@ hr {
 }
 
 .txtsOscurosColor {
-  color: #00ed00;
-  text-align:center;
+  color: #ff0060;
 }
 
 .txtsBlancos.titCalifique {
@@ -9870,6 +9869,99 @@ hr {
 }
 
 /* @end */
+
+/* MODALES */
+
+/* @group MODALES */
+
+
+.modalInferior {
+  /*background-color:#223D8D;*/
+  color:#fff;
+  z-index:60;
+  position:absolute;  /*se debe poner primero el position antes que el bottom para alinear hacia abajo*/
+  bottom: 0;
+  width:100%;
+  /*height:50%;*/
+  /*opacity:0.96;*/
+}
+
+.sombraModales {
+  width:100%;
+  position:absolute;
+  height:100%;
+  z-index:50;
+  opacity:0.8;
+  display:block;
+  top:0;
+  color: #fff;
+  background-color: #000;
+}
+
+
+.modal.left .modal-dialog,
+	.modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.left .modal-content,
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.left .modal-body,
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+/*Left*/
+	.modal.left.fade .modal-dialog{
+		left: -320px;
+		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+		        transition: opacity 0.3s linear, left 0.3s ease-out;
+	}
+	
+	.modal.left.fade.in .modal-dialog{
+		left: 0;
+	}
+        
+/*Right*/
+	.modal.right.fade .modal-dialog {
+		right: 0;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: -320px;
+	}
+
+/* ----- MODALES  ----- */
+	.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.modal-header {
+		border-bottom-color: #EEEEEE;
+		background-color: #FAFAFA;
+	}
+
+/* @end */
+
+
 
 
 /*FIN*/
