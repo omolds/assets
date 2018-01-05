@@ -9634,6 +9634,29 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   letter-spacing:-2px;
 }
 
+
+.btn.btn-primary.btn-circle.btnCircular {
+  z-index:99;
+  position: absolute;
+  bottom:0;
+  top: -58px;
+  left: 80%;
+  width:55px;
+  height:55px;
+  padding:20px 0px;
+  border-radius:35px;
+  line-height:0.3;
+  font-size:34px;
+  color: #fff;
+  background-color:#ff0060;
+  border-color:#fff;
+  text-decoration:none;
+
+}
+
+
+
+
 /* @end */
 
 
