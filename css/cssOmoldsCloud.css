@@ -39,20 +39,10 @@
       font-family: "IconOmolds";
       font-style: normal;
       font-weight: normal;
-      speak: none;
       display: inline-block;
       text-decoration: inherit;
-      width: 1em;
-      margin-right: .2em;
-      text-align: center;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1em;
-      margin-left: .2em;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      color:#ff0060;
-      font-size: 10px;
     }
 
 .logo-omolds:before { content: ''; }
@@ -10046,7 +10036,7 @@ hr {
 
 .cajonBotonCuadrado .icon   {
 	height:40px;
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-bottom: -30px;
 
 }
