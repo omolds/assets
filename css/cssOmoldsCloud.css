@@ -2642,7 +2642,7 @@ tbody.collapse.show {
   outline:0;
 }
 
-.open>.dropdown-menu {
+.show>.dropdown-menu {
   display:block;
 }
 
@@ -10034,7 +10034,8 @@ hr {
 
 /*FIN*/
 
-/*TAMAÑO DEL BOTON*/
+
+/*BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
 
 .cajonBotonCuadrado {
 	height: 120px;
@@ -10045,7 +10046,6 @@ hr {
 	
 }
 
-/*UBICACION Y TAMAÑO DEL ICONO*/
 
 .cajonBotonCuadrado .icon   {
 	height:40px;
@@ -10069,12 +10069,40 @@ hr {
 	
 }
 
-/*COLORES DE LOS BOTONES GRANDES*/
+
 .cajonBotonCuadrado .title a {
 	font-size: 14px;
 	color: #ff0060;
 	line-height: normal;
 	cursor: pointer;
+}
+
+
+/*BOTONES PEQUEÑOS SOLO ICONO*/
+
+
+.cajonBotonCuadradoPequeno {
+	height: 40px;
+	width: 40px;
+	margin:15px;/*espacio alrededor del btn*/
+	background-color: #F2F2F2; /*color del fondo del icono*/
+	
+}
+
+
+.cajonBotonCuadradoPequeno .icon   {
+	height:40px;
+	margin-top: 0px;
+	margin-bottom: -40px;
+
+}
+
+
+.cajonBotonCuadradoPequeno .icon a   {
+	font-size: 26px;
+	height:22px;
+	color: #FF0060;/*color del icono*/
+
 }
 
 
