@@ -25,11 +25,11 @@
 
  @font-face {
   font-family: 'IconOmolds';
-  src: url('fonts/IconOmolds.eot?41341975');
-  src: url('fonts/IconOmolds.eot?41341975#iefix') format('embedded-opentype'),
-       url('fonts/IconOmolds.woff?41341975') format('woff'),
-       url('fonts/IconOmolds.ttf?41341975') format('truetype'),
-       url('fonts/IconOmolds.svg?41341975#fontello') format('svg');
+  src: url('/fonts/IconOmolds.eot?41341975');
+  src: url('/fonts/IconOmolds.eot?41341975#iefix') format('embedded-opentype'),
+       url('/fonts/IconOmolds.woff?41341975') format('woff'),
+       url('/fonts/IconOmolds.ttf?41341975') format('truetype'),
+       url('/fonts/IconOmolds.svg?41341975#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -45,7 +45,7 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-.logo-omolds:before { content: ''; }
+.logo-omolds:before { content: 'î €'; }
 
 
 /* @group EstilosBootstrap */
@@ -267,6 +267,9 @@ input[type="radio"], input[type="checkbox"] {
 
 input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] {
   -webkit-appearance:listbox;
+  border: 1px solid;
+  border-color: #c1c1c1;
+  height: 27px;
 }
 
 textarea {
@@ -2016,6 +2019,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color:#fff;
   background-color:#ff0060;
   border-color:#ff0060;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -3875,6 +3879,7 @@ tbody.collapse.show {
   padding-left:0;
   list-style:none;
   border-radius:0.25rem;
+  height: 70px;
 }
 
 .page-item:first-child .page-link {
@@ -4615,7 +4620,18 @@ button.close {
   position:relative;
   flex:1 1 auto;
   padding:15px;
+  overflow: auto;
+  height: 400px;
 }
+
+.modalInferior .modal-body {
+  position:relative;
+  flex:1 1 auto;
+  padding:15px;
+  overflow: none;
+  height: auto;
+}
+
 
 .modal-footer {
   display:flex;
@@ -9596,8 +9612,8 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 }
 
 .inputLargo {
-	width: 100%;
-	color: #808080;
+    width: 99%;
+    color: #808080;
 }
 
 
@@ -9679,9 +9695,9 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 .btn.btn-primary.btn-circle.btnCircular {
   z-index:30;
-  position: absolute;
-  bottom:0;
-  top: -58px;
+  position: fixed;
+  bottom:33px;
+  /*top: -58px;*/
   left: 80%;
   width:55px;
   height:55px;
@@ -9876,6 +9892,10 @@ a:hover {
   background-color:#FFFFFF;
 }
 
+.col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .row{
+  min-height: 220px;
+}
+
 .espacioArribaCajas {
   margin-top:10%;
 }
@@ -9933,7 +9953,7 @@ hr {
 .txtsBlancos.titCalifique {
   margin-top:7px;
   margin-bottom:7px;
-	color: #0f0;
+    color: #0f0;
 }
 
 /* @end */
@@ -9950,6 +9970,7 @@ hr {
   position:absolute;  /*se debe poner primero el position antes que el bottom para alinear hacia abajo*/
   bottom: 0;
   width:100%;
+  margin:0; 
   /*height:50%;*/
   /*opacity:0.96;*/
 }
@@ -9968,64 +9989,64 @@ hr {
 
 
 .modal.left .modal-dialog,
-	.modal.right .modal-dialog {
-		position: fixed;
-		margin: auto;
-		width: 320px;
-		height: 100%;
-		-webkit-transform: translate3d(0%, 0, 0);
-		    -ms-transform: translate3d(0%, 0, 0);
-		     -o-transform: translate3d(0%, 0, 0);
-		        transform: translate3d(0%, 0, 0);
-	}
+    .modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 320px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+            -ms-transform: translate3d(0%, 0, 0);
+             -o-transform: translate3d(0%, 0, 0);
+                transform: translate3d(0%, 0, 0);
+    }
 
-	.modal.left .modal-content,
-	.modal.right .modal-content {
-		height: 100%;
-		overflow-y: auto;
-	}
-	
-	.modal.left .modal-body,
-	.modal.right .modal-body {
-		padding: 15px 15px 80px;
-	}
+    .modal.left .modal-content,
+    .modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .modal.left .modal-body,
+    .modal.right .modal-body {
+        padding: 15px 15px 80px;
+    }
 
 /*Left*/
-	.modal.left.fade .modal-dialog{
-		left: -320px;
-		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
-		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
-		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
-		        transition: opacity 0.3s linear, left 0.3s ease-out;
-	}
-	
-	.modal.left.fade.in .modal-dialog{
-		left: 0;
-	}
+    .modal.left.fade .modal-dialog{
+        left: -320px;
+        -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+                transition: opacity 0.3s linear, left 0.3s ease-out;
+    }
+    
+    .modal.left.fade.in .modal-dialog{
+        left: 0;
+    }
         
 /*Right*/
-	.modal.right.fade .modal-dialog {
-		right: 0;
-		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-		        transition: opacity 0.3s linear, right 0.3s ease-out;
-	}
-	
-	.modal.right.fade.in .modal-dialog {
-		right: -320px;
-	}
+    .modal.right.fade .modal-dialog {
+        right: 0;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+                transition: opacity 0.3s linear, right 0.3s ease-out;
+    }
+    
+    .modal.right.fade.in .modal-dialog {
+        right: -320px;
+    }
 
 /* ----- MODALES  ----- */
-	.modal-content {
-		border-radius: 0;
-		border: none;
-	}
+    .modal-content {
+        border-radius: 0;
+        border: none;
+    }
 
-	.modal-header {
-		border-bottom-color: #EEEEEE;
-		background-color: #FAFAFA;
-	}
+    .modal-header {
+        border-bottom-color: #EEEEEE;
+        background-color: #FAFAFA;
+    }
 
 /* @end */
 
@@ -10038,75 +10059,71 @@ hr {
 /*BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
 
 .cajonBotonCuadrado {
-	height: 120px;
-	width: 120px;
-	margin:14px;
-	color: #ff0060;
-	background-color: #F2F2F2;
-	
+    height: 120px;
+    width: 120px;
+    margin:14px;
+    color: #ff0060;
+    background-color: #F2F2F2;
+    
 }
 
 
 .cajonBotonCuadrado .icon   {
-	height:40px;
-	margin-top: 20px;
-	margin-bottom: -30px;
+    height:40px;
+    margin-top: 20px;
+    margin-bottom: -30px;
 
 }
 
 
 .cajonBotonCuadrado .icon a   {
-	font-size: 27px;
-	height:22px;
-	color: #FF0060;
+    font-size: 27px;
+    height:22px;
+    color: #FF0060;
 
 }
 
 .cajonBotonCuadrado .title  {
-	height:30px;
-	color: #FF0060;
-	
-	
+    height:30px;
+    color: #FF0060;
+    
+    
 }
 
 
 .cajonBotonCuadrado .title a {
-	font-size: 14px;
-	color: #ff0060;
-	line-height: normal;
-	cursor: pointer;
+    font-size: 14px;
+    color: #ff0060;
+    line-height: normal;
+    cursor: pointer;
 }
 
 
-/*BOTONES PEQUEÑOS SOLO ICONO*/
+/*BOTONES PEQUEÃ‘OS SOLO ICONO*/
 
 
 .cajonBotonCuadradoPequeno {
-	height: 40px;
-	width: 40px;
-	margin:15px;/*espacio alrededor del btn*/
-	background-color: #F2F2F2; /*color del fondo del icono*/
-	
+    height: 40px;
+    width: 40px;
+    margin:15px;/*espacio alrededor del btn*/
+    background-color: #F2F2F2; /*color del fondo del icono*/
+    
 }
 
 
 .cajonBotonCuadradoPequeno .icon   {
-	height:40px;
-	margin-top: 0px;
-	margin-bottom: -40px;
+    height:40px;
+    margin-top: 0px;
+    margin-bottom: -40px;
 
 }
 
 
 .cajonBotonCuadradoPequeno .icon a   {
-	font-size: 26px;
-	height:22px;
-	color: #FF0060;/*color del icono*/
+    font-size: 26px;
+    height:22px;
+    color: #FF0060;/*color del icono*/
 
-}
-
-[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
-	
 }
 
 
@@ -10188,14 +10205,14 @@ hr {
   transition: left 0.15s ease-out;
 }
 
-#resultTypeField {
+#resultTypeField, #resultTypeField_up {
     height: auto;
     padding: 10px;
     margin: 10px 0;
     background-color: rgba(0,0,0,0.1);
 }
 
-#resultTypeField .short_answer {
+#resultTypeField .short_answer, #resultTypeField_up .short_answer {
     background: transparent;
     border: none;
     padding: .125em 0;
@@ -10204,7 +10221,7 @@ hr {
     width: 30%;
 }
 
-#resultTypeField .paragraph {
+#resultTypeField .paragraph, #resultTypeField_up .paragraph {
     background: transparent;
     border: none;
     padding: .125em 0;
@@ -10212,25 +10229,61 @@ hr {
     border-bottom: 1px dotted rgba(0,0,0,0.38);
     width: 90%;
 }
-#resultTypeField  .moreOption{
-    position: relative;
-    left: 94%;
-    top: 0;
-    width: 30px;
-    height: 30px;
-    padding: 7px;
+#resultTypeField  .btn.btn-primary.btn-circle.btnCircular.moreOption, #resultTypeField_up  .btn.btn-primary.btn-circle.btnCircular.moreOption{
+    position: relative !important;
+    left: 94% !important;
+    top: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 7px !important;
 }
 
-#resultTypeField .form-check-label{
-  width: 100%
+#resultTypeField .form-check-label, #resultTypeField_up .form-check-label{
+  width: 100% !important;
 }
+
+/*cursor*/
+.auto            { cursor: auto; }
+.default         { cursor: default; }
+.none            { cursor: none; }
+.context-menu    { cursor: context-menu; }
+.help            { cursor: help; }
+.pointer         { cursor: pointer; }
+.progress        { cursor: progress; }
+.wait            { cursor: wait; }
+.cell            { cursor: cell; }
+.crosshair       { cursor: crosshair; }
+.text            { cursor: text; }
+.vertical-text   { cursor: vertical-text; }
+.alias           { cursor: alias; }
+.copy            { cursor: copy; }
+.move            { cursor: move; }
+.no-drop         { cursor: no-drop; }
+.not-allowed     { cursor: not-allowed; }
+.all-scroll      { cursor: all-scroll; }
+.col-resize      { cursor: col-resize; }
+.row-resize      { cursor: row-resize; }
+.n-resize        { cursor: n-resize; }
+.e-resize        { cursor: e-resize; }
+.s-resize        { cursor: s-resize; }
+.w-resize        { cursor: w-resize; }
+.ns-resize       { cursor: ns-resize; }
+.ew-resize       { cursor: ew-resize; }
+.ne-resize       { cursor: ne-resize; }
+.nw-resize       { cursor: nw-resize; }
+.se-resize       { cursor: se-resize; }
+.sw-resize       { cursor: sw-resize; }
+.nesw-resize     { cursor: nesw-resize; }
+.nwse-resize     { cursor: nwse-resize; }
+/*fin cursor*/
+
+
+
 
 
 
 
  
-
-
 
 
 
