@@ -9671,15 +9671,15 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 .footerOmoldsOscuro p {
   margin:0px;
-  color: #808080;
+  color: #ffffff;
 }
 
 .footerOmoldsOscuro a {
-  color:#820639;
+  color:#ff0060;
 }
 
 .footerOmoldsOscuro a:hover {
-  color:#AF084D;
+  color: #ff0060;
 }
 
 /* @end */
