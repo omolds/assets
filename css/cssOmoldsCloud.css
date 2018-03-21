@@ -77,6 +77,14 @@ body {
   font-family:'Barlow Semi Condensed', sans-serif;
   color: #fefb00;
   background-color: #FF0060;
+  margin-bottom: 60px;
+}
+
+bodyOfertom {
+  margin:0;
+  font-family:'Barlow Semi Condensed', sans-serif;
+  color: #fefb00;
+  background-color: #8064aa;
 }
 
 [tabindex="-1"]:focus {
@@ -1638,8 +1646,8 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #00fcff;
   opacity:1;
+	color: #c1c1c1;
 }
 
 .form-control:disabled, .form-control[readonly] {
@@ -9892,6 +9900,10 @@ a:hover {
   background-color:#FFFFFF;
 }
 
+.colorCajasOscuras {
+  background-color:#820639;
+}
+
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .row{
   min-height: 220px;
 }
@@ -9911,6 +9923,11 @@ a:hover {
 
 .margenesEspacio {
   margin:2px;
+}
+
+.margenesArribaAbajo15px {
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
 
