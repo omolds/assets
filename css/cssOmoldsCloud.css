@@ -9654,6 +9654,38 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 /* @end */
 
+
+/* @group FOOTER OMOLDS OSCURO*/
+
+.footerOmoldsOscuro {
+  z-index:9;
+  width:100%;
+  background-color: #820639;
+  text-align:center;
+  position:fixed;
+  bottom:0px;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-bottom:0px !important;
+}
+
+.footerOmoldsOscuro p {
+  margin:0px;
+  color: #808080;
+}
+
+.footerOmoldsOscuro a {
+  color:#820639;
+}
+
+.footerOmoldsOscuro a:hover {
+  color:#AF084D;
+}
+
+/* @end */
+
+
+
 /* @group HEADER OMOLDS */
 
 .headerOmolds {
