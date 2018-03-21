@@ -3844,25 +3844,34 @@ tbody.collapse.show {
   }
 }
 
-.breadcrumb {
-  padding:0.75rem 1rem;
-  margin-bottom:1rem;
+
+
+
+
+
+/* @group MIGA DE PAN BREADCRUMB */
+
+.breadcrumbOmolds {
+  padding:10px 10px;
+  margin-bottom: 5px;
+  /*padding:0.75rem 1rem;*/
+  /*margin-bottom:1rem;*/
   list-style:none;
-  background-color:#e9ecef;
-  /*border-radius:0.25rem*/;
+  background-color: #ff22e5;
+  border-radius:0;
 }
 
-.breadcrumb::after {
+.breadcrumbOmolds::after {
   display:block;
   clear:both;
   content:"";
 }
 
-.breadcrumb-item {
+.breadcrumbOmolds-item {
   float:left;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumbOmolds-item + .breadcrumbOmolds-item::before {
   display:inline-block;
   padding-right:0.5rem;
   padding-left:0.5rem;
@@ -3870,17 +3879,23 @@ tbody.collapse.show {
   content:"/";
 }
 
-.breadcrumb-item + .breadcrumb-item:hover::before {
+.breadcrumbOmolds-item + .breadcrumbOmolds-item:hover::before {
   text-decoration:underline;
 }
 
-.breadcrumb-item + .breadcrumb-item:hover::before {
+.breadcrumbOmolds-item + .breadcrumbOmolds-item:hover::before {
   text-decoration:none;
 }
 
-.breadcrumb-item.active {
+.breadcrumbOmolds-item.active {
   color:#868e96;
 }
+
+/* @end */
+
+
+
+
 
 .pagination {
   display:flex;
