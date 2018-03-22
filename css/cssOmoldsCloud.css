@@ -10114,7 +10114,7 @@ hr {
         border-radius: 0;
         border: none;
         max-height: 315px;
-        background-color: #ff5aff;
+        background-color: #ffff;
     }
 
     .modal-header {
@@ -10359,7 +10359,11 @@ hr {
 }
 
 
-
+.cajaScroll {
+    border: solid  0.5px;
+    overflow: scroll;
+    height: 200px;
+}
 
 
 
