@@ -3853,8 +3853,8 @@ tbody.collapse.show {
 
 .breadcrumbOmolds {
   padding:10px 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   /*padding:0.75rem 1rem;*/
   /*margin-bottom:1rem;*/
   list-style:none;
@@ -3889,7 +3889,7 @@ tbody.collapse.show {
 }
 
 .breadcrumbOmolds-item.active {
-  color:#868e96;
+  color: #00f038;
 }
 
 /* @end */
@@ -4595,8 +4595,8 @@ button.close {
   flex-direction:column;
   background-color:#fff;
   background-clip:padding-box;
-  border:1px solid rgba(0, 0, 0, 0.2);
-  border-radius:0.3rem;
+  border:none;
+  border-radius:0;
   outline:0;
 }
 
@@ -4699,6 +4699,11 @@ button.close {
     max-width:800px;
   }
 }
+
+
+
+
+
 
 .tooltip {
   position:absolute;
@@ -10103,9 +10108,13 @@ hr {
     }
 
 /* ----- MODALES  ----- */
-    .modal-content {
+
+    
+        .modalSimpleOmolds {
         border-radius: 0;
         border: none;
+        max-height: 315px;
+        background-color: #ff5aff;
     }
 
     .modal-header {
