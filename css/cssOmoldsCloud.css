@@ -9801,24 +9801,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   margin-bottom:60px;
 }
 
-.modalBienvenida {
-  background-color:#fff;
-  z-index:80;
-  position:absolute;
-  height:100%;
-  width:100%;
-  text-align:center;
-  padding-top:220px;
-  display:block;
-}
 
-.modalAyudaventas {
-  z-index:65;
-  position:absolute;
-  text-align:center;
-  width:100%;
-  top:20%;
-}
 
 .videoUsuario {
   z-index:10;
@@ -9847,41 +9830,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   /*padding:11px;*/
 }
 
-.modalCompleta {
-  background-color:#223D8D;
-  color:#fff;
-  z-index:60;
-  position:absolute;
-  width:100%;
-  height:100%;
-  /*opacity:0.96;*/
-}
-
-.modalCompleta .txtGrande {
-  margin-top:-50px;
-  margin-bottom:-39px;
-  padding-right:20px;
-  padding-left:20px;
-}
-
-.modalCompleta .cajaIcono {
-  text-align:center;
-  font-size:200px;
-}
-
-.modalCompleta .txtsAmarillos a:hover {
-  color:#FFFF9B;
-}
-
-.modalCompleta .txtsAmarillos {
-  color:#F8D600;
-}
-
-.modalCompleta .url {
-  padding-bottom:29px;
-  padding-right:20px;
-  padding-left:20px;
-}
 
 .txtsChat {
   width:90%;
@@ -9910,28 +9858,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 }
 
 
-.modalStickers {
-  background-color:#223D8D;
-  position:absolute;
-  z-index:80;
-  width:250px;
-  height:250px;
-  border-radius:41em;
-  color:#fff;
-  display:block;
-  top:20%;
-}
 
-.modalStickers .icon {
-  color:#fff;
-  font-size:92px;
-}
-
-.modalStickers p {
-  margin-top:-14px;
-  padding-left:5px;
-  padding-right:5px;
-}
 
 a {
   color:#820639;
@@ -10029,100 +9956,6 @@ hr {
 /* @end */
 
 /* MODALES */
-
-/* @group MODALES */
-
-
-.modalInferior {
-  /*background-color:#223D8D;*/
-  color:#fff;
-  z-index:90;
-  position:absolute;  /*se debe poner primero el position antes que el bottom para alinear hacia abajo*/
-  bottom: 0;
-  width:100%;
-  margin:0; 
-  /*height:50%;*/
-  /*opacity:0.96;*/
-}
-
-.sombraModales {
-  width:100%;
-  position:absolute;
-  height:100%;
-  z-index:50;
-  opacity:0.8;
-  display:block;
-  top:0;
-  color: #fff;
-  background-color: #000;
-}
-
-
-.modal.left .modal-dialog,
-    .modal.right .modal-dialog {
-        position: fixed;
-        margin: auto;
-        width: 320px;
-        height: 100%;
-        -webkit-transform: translate3d(0%, 0, 0);
-            -ms-transform: translate3d(0%, 0, 0);
-             -o-transform: translate3d(0%, 0, 0);
-                transform: translate3d(0%, 0, 0);
-    }
-
-    .modal.left .modal-content,
-    .modal.right .modal-content {
-        height: 100%;
-        overflow-y: auto;
-    }
-    
-    .modal.left .modal-body,
-    .modal.right .modal-body {
-        padding: 15px 15px 80px;
-    }
-
-/*Left*/
-    .modal.left.fade .modal-dialog{
-        left: -320px;
-        -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
-           -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
-             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
-                transition: opacity 0.3s linear, left 0.3s ease-out;
-    }
-    
-    .modal.left.fade.in .modal-dialog{
-        left: 0;
-    }
-        
-/*Right*/
-    .modal.right.fade .modal-dialog {
-        right: 0;
-        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-                transition: opacity 0.3s linear, right 0.3s ease-out;
-    }
-    
-    .modal.right.fade.in .modal-dialog {
-        right: -320px;
-    }
-
-/* ----- MODALES  ----- */
-
-    
-        .modalSimpleOmolds {
-        border-radius: 0;
-        border: none;
-        max-height: 315px;
-        background-color: #ffff;
-    }
-
-    .modal-header {
-        border-bottom-color: #EEEEEE;
-        background-color: #FAFAFA;
-    }
-
-/* @end */
 
 
 
@@ -10364,6 +10197,276 @@ hr {
     overflow: scroll;
     height: 200px;
 }
+
+/* @group MODALES BOOTSTRAP */
+
+
+.modal.left .modal-dialog,
+    .modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 320px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+            -ms-transform: translate3d(0%, 0, 0);
+             -o-transform: translate3d(0%, 0, 0);
+                transform: translate3d(0%, 0, 0);
+    }
+
+    .modal.left .modal-content,
+    .modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .modal.left .modal-body,
+    .modal.right .modal-body {
+        padding: 15px 15px 80px;
+    }
+
+/*Left*/
+    .modal.left.fade .modal-dialog{
+        left: -320px;
+        -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+                transition: opacity 0.3s linear, left 0.3s ease-out;
+    }
+    
+    .modal.left.fade.in .modal-dialog{
+        left: 0;
+    }
+        
+/*Right*/
+    .modal.right.fade .modal-dialog {
+        right: 0;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+                transition: opacity 0.3s linear, right 0.3s ease-out;
+    }
+    
+    .modal.right.fade.in .modal-dialog {
+        right: -320px;
+    }
+
+
+/* @end */
+
+/* @group MODAL CENTRAL OMOLDS */
+
+
+
+.modalCentralOmolds {
+  background-color:#ff0060;
+  margin: 0 auto;
+  z-index:999;
+  width:250px;
+  height:250px;
+  border-radius:41em;
+  color:#fff;
+  display:block;
+  top:20%;
+  /*position:absolute;*/
+  
+}
+
+.modalCentralOmolds .icon {
+	  color:#fff;
+	  font-size:92px;
+}
+
+.modalCentralOmolds p {
+	color:#ffff;
+	margin-top:-14px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+/* @end */
+
+
+
+/* @group MODAL COMPLETA OMOLDS */
+
+.modalCompletaOmolds {
+  background-color:#223D8D;
+  color:#fff;
+  z-index:60;
+  position:absolute;
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  /*opacity:0.96;*/
+}
+
+.modalCompletaOmolds .txtGrande {
+  margin-top:-50px;
+  margin-bottom:-39px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+.modalCompletaOmolds .cajaIcono {
+  text-align:center;
+  font-size:200px;
+}
+
+.modalCompletaOmolds .txtsAmarillos a:hover {
+  color:#FFFF9B;
+}
+
+.modalCompletaOmolds .txtsAmarillos {
+  color:#F8D600;
+}
+
+.modalCompletaOmolds .url {
+  padding-bottom:29px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+/* @end */
+
+
+
+/* @group MODAL COMPLETA BANCOLOMBIA */
+
+.modalCompleta {
+  background-color:#223D8D;
+  color:#fff;
+  z-index:60;
+  position:absolute;
+  width:100%;
+  height:100%;
+  /*opacity:0.96;*/
+}
+
+.modalCompleta .txtGrande {
+  margin-top:-50px;
+  margin-bottom:-39px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+.modalCompleta .cajaIcono {
+  text-align:center;
+  font-size:200px;
+}
+
+.modalCompleta .txtsAmarillos a:hover {
+  color:#FFFF9B;
+}
+
+.modalCompleta .txtsAmarillos {
+  color:#F8D600;
+}
+
+.modalCompleta .url {
+  padding-bottom:29px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+
+/* @end */
+
+
+/* @group MODAL STICKERS */
+
+.modalStickers {
+  background-color:#223D8D;
+  position:absolute;
+  z-index:80;
+  width:250px;
+  height:250px;
+  border-radius:41em;
+  color:#fff;
+  display:block;
+  top:20%;
+}
+
+.modalStickers .icon {
+  color:#fff;
+  font-size:92px;
+}
+
+.modalStickers p {
+  margin-top:-14px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/* @end */
+
+
+
+/* @group MODALES */
+
+
+.modalSimpleOmolds {
+	border-radius: 0;
+	border: none;
+	max-height: 315px;
+	background-color: #ffff;
+	}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+
+.modalInferior {
+	  /*background-color:#223D8D;*/
+	  color:#fff;
+	  z-index:90;
+	  position:absolute;  /*se debe poner primero el position antes que el bottom para alinear hacia abajo*/
+	  bottom: 0;
+	  width:100%;
+	  margin:0; 
+	  /*height:50%;*/
+	  /*opacity:0.96;*/
+}
+
+.sombraModales {
+	  width:100%;
+	  position:absolute;
+	  height:100%;
+	  z-index:50;
+	  opacity:0.8;
+	  display:block;
+	  top:0;
+	  color: #fff;
+	  background-color: #000;
+}
+
+
+
+.modalBienvenida {
+	  background-color:#fff;
+	  z-index:80;
+	  position:absolute;
+	  height:100%;
+	  width:100%;
+	  text-align:center;
+	  padding-top:220px;
+	  display:block;
+}
+
+
+.modalAyudaventas {
+	  z-index:65;
+	  position:absolute;
+	  text-align:center;
+	  width:100%;
+	  top:20%;
+}
+
+
+/* @end */
+
+
 
 
 
