@@ -9713,7 +9713,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   background-color:#ffffff;
   margin:0;
   padding:0;
-  padding:18px;
+  padding:5px;
   max-width:100%!important;
 }
 
@@ -10469,8 +10469,12 @@ hr {
 /* @end */
 
 
+.cleanRowMargin {
+	
+	width: 100%;
+	margin: 0;
 
-
+}
 
 
 
