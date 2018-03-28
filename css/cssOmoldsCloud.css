@@ -10479,9 +10479,17 @@ hr {
 
 .videoUsuarioVichom {
 	
-	width: 100%;
+	width: 60%;
 	max-width: 560px;
 	background-color: orange;
+
+}
+
+.videoAgenteVichom {
+	
+	width: 100%;
+	max-width: 560px;
+	background-color: #03f505;
 
 }
 
