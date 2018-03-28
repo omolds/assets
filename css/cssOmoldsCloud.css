@@ -10476,23 +10476,38 @@ hr {
 
 }
 
+.iframeVideosVichom{
+	
+	position: absolute; 
+	height: 100%; 
+
+}
+
 
 .videoUsuarioVichom {
 	
-	width: 100%;
+	width: 110px;
 	max-width: 560px;
-	background-color: #808080;
-	background-image: url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png);
-
+	border: 2px solid white;
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: relative;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
 .videoAgenteVichom {
 	
 	width: 100%;
-	max-width: 560px;
-	background-color: #03f505;
-
+	/*max-width: 560px;*/
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 5;
 }
+
+
 
 
 
