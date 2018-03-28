@@ -10479,9 +10479,10 @@ hr {
 
 .videoUsuarioVichom {
 	
-	width: 30%;
+	width: 100%;
 	max-width: 560px;
-	background-image:https://omolds.github.io/assets/blob/master/images/vichom/videoNoCargado.jpg?raw=true;
+	background-color: #808080;
+	background-image: url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png);
 
 }
 
