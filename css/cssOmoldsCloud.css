@@ -10470,6 +10470,35 @@ hr {
 
 /* @end */
 
+/* @group SITOM */
+
+@ -4808,12 +4808,14 @@ button.close {
+}
+
+.tooltip-inner {
+  max-width:200px;
+  max-width:300px;
+  padding:3px 8px;
+  color:#fff;
+  text-align:center;
+  background-color:#000;
+  background-color:#ff0060;
+  border-radius:0.25rem;
+  
+  
+}
+
+.popover {
+@ -10476,6 +10478,12 @@ hr {
+
+}
+
+/* @end */
+
+
+
+/* @group VICHOM VIDEOS */
+
 
 .cleanRowMargin {
 	
@@ -10478,12 +10507,43 @@ hr {
 
 }
 
-.videoUsuarioVichom {
+
+.iframeVideosVichom{
 	
-	width: 100%;
-	max-width: 560px;
+	position: absolute; 
+	height: 100%; 
 
 }
+
+
+.videoUsuarioVichom {
+	
+	width: 110px;
+	max-width: 560px;
+	border: 2px solid white;
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: relative;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.videoAgenteVichom {
+	
+	width: 100%;
+	/*max-width: 560px;*/
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 5;
+}
+
+/* @end */
+
+
+
+
 
 
 
