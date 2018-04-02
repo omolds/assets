@@ -23,32 +23,7 @@
  * Fuente logo Omolds
  */
 
-.vichomBienvenida {
-	  
-	  background-color: #fff;
-	  z-index:80;
-	  position:absolute;
-	  height:100%;
-	  width:100%;
-	  text-align:center;
-	  display:block;
-}
 
-.vichomBienvenidaLogo {
-		
-	padding-top: 60px;
-	padding-bottom: 60px;
-	width: 20em;
-	height:auto;
-	text-align:center;
-}
-
-
-.vichomBienvenidaFooter {
-		
-	/*background-color: #9465f3;*/
-	padding-bottom: 20px;
-}
 
 @font-face {
   font-family: 'IconOmolds';
@@ -9699,79 +9674,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 /* @end */
 
-/* @group VICHOM VIDEOS */
-
-
-.cleanRowMargin {
-	
-	width: 100%;
-	margin: 0;
-
-}
-
-
-.iframeVideosVichom {
-	
-	position: absolute; 
-	height: 85%; 
-
-
-}
-
-.iframeVichomBackground {
-
-	background-color: #000;
-
-}
-
-
-
-.videoUsuarioVichomMovil {
-	
-	width: 15%;
-	/*max-width: 560px;*/
-	border: 2px solid white;
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-	position: relative;
-	z-index: 10;
-	margin-top: 5px;
-	margin-left: 5px;
-}
-
-
-.videoUsuarioVichomDesktop {
-	
-	width: 20%;
-	/*max-width: 560px;*/
-	border: 2px solid white;
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-	position: relative;
-	z-index: 10;
-	margin-top: 5px;
-	margin-left: 5px;
-}
-
-
-
-.videoAgenteVichom {
-	
-	width: 100%;
-	margin: auto; /*solo al agregarle el 0 antes del auto en imagenes funciona el centrado vertical pero en video no*/
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-	left: 0px; top: 0px; bottom: 0px; right: 0px;
-	position: absolute;
-	z-index: 5;
-	
-	
-}
-
-
-
-
-
-
-/* @end */
-
 /* @group FOOTER OMOLDS */
 
 .footerOmolds {
@@ -10053,8 +9955,10 @@ hr {
 
 /* @end */
 
-/* CRUD */
 
+
+
+/* @group CRUD*/
 
 .espaciosPestanas {
   margin-bottom:0;
@@ -10062,9 +9966,11 @@ hr {
   color:#ffffff;
   padding:7px;
 /*background-color: #00f038;*/
+
 }
 
-/* TEXTOS Y TITULOS */
+/* @end */
+
 
 /* @group TEXTOS Y TITULOS */
 
@@ -10086,15 +9992,35 @@ hr {
 
 /* @end */
 
-/* MODALES */
+/* @group BOTONES PEQUENOS SOLO ICONO */
+
+.cajonBotonCuadradoPequeno {
+    height: 40px;
+    width: 40px;
+    margin:15px;/*espacio alrededor del btn*/
+    background-color: #F2F2F2; /*color del fondo del icono*/
+    
+}
 
 
+.cajonBotonCuadradoPequeno .icon   {
+    height:40px;
+    margin-top: 0px;
+    margin-bottom: -40px;
+
+}
 
 
-/*FIN*/
+.cajonBotonCuadradoPequeno .icon a   {
+    font-size: 26px;
+    height:22px;
+    color: #FF0060;/*color del icono*/
 
+}
 
-/*BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
+/* @end */
+
+/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
 .cajonBotonCuadrado {
     height: 120px;
@@ -10136,198 +10062,7 @@ hr {
     cursor: pointer;
 }
 
-
-/*BOTONES PEQUEÃ‘OS SOLO ICONO*/
-
-
-.cajonBotonCuadradoPequeno {
-    height: 40px;
-    width: 40px;
-    margin:15px;/*espacio alrededor del btn*/
-    background-color: #F2F2F2; /*color del fondo del icono*/
-    
-}
-
-
-.cajonBotonCuadradoPequeno .icon   {
-    height:40px;
-    margin-top: 0px;
-    margin-bottom: -40px;
-
-}
-
-
-.cajonBotonCuadradoPequeno .icon a   {
-    font-size: 26px;
-    height:22px;
-    color: #FF0060;/*color del icono*/
-
-}
-
-
-/*BOTONES switch S/N*/
-.switch {
-  position: relative;
-  height: 26px;
-  width: 120px;
-  background: rgba(0, 0, 0, 0.25);
-  border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
-}
-
-.switch-label {
-  position: relative;
-  z-index: 2;
-  float: left;
-  width: 58px;
-  line-height: 26px;
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.35);
-  text-align: center;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
-  cursor: pointer;
-}
-.switch-label:active {
-  font-weight: bold;
-}
-
-.switch-label-off {
-  padding-left: 2px;
-}
-
-.switch-label-on {
-  padding-right: 2px;
-}
-
-
-.switch-input {
-  display: none;
-}
-.switch-input:checked + .switch-label {
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.65);
-  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
-  -webkit-transition: 0.15s ease-out;
-  -moz-transition: 0.15s ease-out;
-  -ms-transition: 0.15s ease-out;
-  -o-transition: 0.15s ease-out;
-  transition: 0.15s ease-out;
-  -webkit-transition-property: color, text-shadow;
-  -moz-transition-property: color, text-shadow;
-  -ms-transition-property: color, text-shadow;
-  -o-transition-property: color, text-shadow;
-  transition-property: color, text-shadow;
-}
-.switch-input:checked + .switch-label-on ~ .switch-selection {
-  left: 60px;
-  /* Note: left: 50%; doesn't transition in WebKit */
-}
-
-.switch-selection {
-  position: absolute;
-  z-index: 1;
-  top: 2px;
-  left: 2px;
-  display: block;
-  width: 58px;
-  height: 22px;
-  border-radius: 3px;
-  background-color: #ff0060;
-  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-  -webkit-transition: left 0.15s ease-out;
-  -moz-transition: left 0.15s ease-out;
-  -ms-transition: left 0.15s ease-out;
-  -o-transition: left 0.15s ease-out;
-  transition: left 0.15s ease-out;
-}
-
-#resultTypeField, #resultTypeField_up {
-    height: auto;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: rgba(0,0,0,0.1);
-}
-
-#resultTypeField .short_answer, #resultTypeField_up .short_answer {
-    background: transparent;
-    border: none;
-    padding: .125em 0;
-    color: rgba(0,0,0,0.38);
-    border-bottom: 1px dotted rgba(0,0,0,0.38);
-    width: 30%;
-}
-
-#resultTypeField .paragraph, #resultTypeField_up .paragraph {
-    background: transparent;
-    border: none;
-    padding: .125em 0;
-    color: rgba(0,0,0,0.38);
-    border-bottom: 1px dotted rgba(0,0,0,0.38);
-    width: 90%;
-}
-#resultTypeField  .btn.btn-primary.btn-circle.btnCircular.moreOption, #resultTypeField_up  .btn.btn-primary.btn-circle.btnCircular.moreOption{
-    position: relative !important;
-    left: 94% !important;
-    top: 0 !important;
-    width: 30px !important;
-    height: 30px !important;
-    padding: 7px !important;
-}
-
-#resultTypeField .form-check-label, #resultTypeField_up .form-check-label{
-  width: 100% !important;
-}
-
-/*cursor*/
-.auto            { cursor: auto; }
-.default         { cursor: default; }
-.none            { cursor: none; }
-.context-menu    { cursor: context-menu; }
-.help            { cursor: help; }
-.pointer         { cursor: pointer; }
-.progress        { cursor: progress; }
-.wait            { cursor: wait; }
-.cell            { cursor: cell; }
-.crosshair       { cursor: crosshair; }
-.text            { cursor: text; }
-.vertical-text   { cursor: vertical-text; }
-.alias           { cursor: alias; }
-.copy            { cursor: copy; }
-.move            { cursor: move; }
-.no-drop         { cursor: no-drop; }
-.not-allowed     { cursor: not-allowed; }
-.all-scroll      { cursor: all-scroll; }
-.col-resize      { cursor: col-resize; }
-.row-resize      { cursor: row-resize; }
-.n-resize        { cursor: n-resize; }
-.e-resize        { cursor: e-resize; }
-.s-resize        { cursor: s-resize; }
-.w-resize        { cursor: w-resize; }
-.ns-resize       { cursor: ns-resize; }
-.ew-resize       { cursor: ew-resize; }
-.ne-resize       { cursor: ne-resize; }
-.nw-resize       { cursor: nw-resize; }
-.se-resize       { cursor: se-resize; }
-.sw-resize       { cursor: sw-resize; }
-.nesw-resize     { cursor: nesw-resize; }
-.nwse-resize     { cursor: nwse-resize; }
-/*fin cursor*/
-
-
-
-.iconosTamano{
-  font-size:150px;
-  color: #00ff3f;
-}
-
-
-.cajaScroll {
-    border: solid  0.5px;
-    overflow: scroll;
-    height: 200px;
-}
+/* @end */
 
 /* @group MODALES BOOTSTRAP */
 
@@ -10599,33 +10334,180 @@ hr {
 
 /* @end */
 
-<<<<<<< HEAD
-/* @group SITOM */
+/* @group CURSOR */
 
-@ -4808,12 +4808,14 @@ button.close {
+
+.auto            { cursor: auto; }
+.default         { cursor: default; }
+.none            { cursor: none; }
+.context-menu    { cursor: context-menu; }
+.help            { cursor: help; }
+.pointer         { cursor: pointer; }
+.progress        { cursor: progress; }
+.wait            { cursor: wait; }
+.cell            { cursor: cell; }
+.crosshair       { cursor: crosshair; }
+.text            { cursor: text; }
+.vertical-text   { cursor: vertical-text; }
+.alias           { cursor: alias; }
+.copy            { cursor: copy; }
+.move            { cursor: move; }
+.no-drop         { cursor: no-drop; }
+.not-allowed     { cursor: not-allowed; }
+.all-scroll      { cursor: all-scroll; }
+.col-resize      { cursor: col-resize; }
+.row-resize      { cursor: row-resize; }
+.n-resize        { cursor: n-resize; }
+.e-resize        { cursor: e-resize; }
+.s-resize        { cursor: s-resize; }
+.w-resize        { cursor: w-resize; }
+.ns-resize       { cursor: ns-resize; }
+.ew-resize       { cursor: ew-resize; }
+.ne-resize       { cursor: ne-resize; }
+.nw-resize       { cursor: nw-resize; }
+.se-resize       { cursor: se-resize; }
+.sw-resize       { cursor: sw-resize; }
+.nesw-resize     { cursor: nesw-resize; }
+.nwse-resize     { cursor: nwse-resize; }
+
+
+/* @end */
+
+
+
+/* @group BOTONES SWITCH SYN */
+
+.switch {
+  position: relative;
+  height: 26px;
+  width: 120px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
 }
 
-.tooltip-inner {
-  max-width:200px;
-  max-width:300px;
-  padding:3px 8px;
-  color:#fff;
-  text-align:center;
-  background-color:#000;
-  background-color:#ff0060;
-  border-radius:0.25rem;
-  
-  
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 58px;
+  line-height: 26px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.switch-label:active {
+  font-weight: bold;
 }
 
-.popover {
-@ -10476,6 +10478,12 @@ hr {
+.switch-label-off {
+  padding-left: 2px;
+}
 
+.switch-label-on {
+  padding-right: 2px;
+}
+
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.65);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -ms-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  -webkit-transition-property: color, text-shadow;
+  -moz-transition-property: color, text-shadow;
+  -ms-transition-property: color, text-shadow;
+  -o-transition-property: color, text-shadow;
+  transition-property: color, text-shadow;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 60px;
+  /* Note: left: 50%; doesn't transition in WebKit */
+}
+
+.switch-selection {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 58px;
+  height: 22px;
+  border-radius: 3px;
+  background-color: #ff0060;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -ms-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+#resultTypeField, #resultTypeField_up {
+    height: auto;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#resultTypeField .short_answer, #resultTypeField_up .short_answer {
+    background: transparent;
+    border: none;
+    padding: .125em 0;
+    color: rgba(0,0,0,0.38);
+    border-bottom: 1px dotted rgba(0,0,0,0.38);
+    width: 30%;
+}
+
+#resultTypeField .paragraph, #resultTypeField_up .paragraph {
+    background: transparent;
+    border: none;
+    padding: .125em 0;
+    color: rgba(0,0,0,0.38);
+    border-bottom: 1px dotted rgba(0,0,0,0.38);
+    width: 90%;
+}
+#resultTypeField  .btn.btn-primary.btn-circle.btnCircular.moreOption, #resultTypeField_up  .btn.btn-primary.btn-circle.btnCircular.moreOption{
+    position: relative !important;
+    left: 94% !important;
+    top: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 7px !important;
+}
+
+#resultTypeField .form-check-label, #resultTypeField_up .form-check-label{
+  width: 100% !important;
 }
 
 /* @end */
-=======
->>>>>>> 7807d1161344995efc5f20a4088aac2ba1255357
+
+
+
+.iconosTamano{
+  font-size:150px;
+  color: #00ff3f;
+}
+
+
+.cajaScroll {
+    border: solid  0.5px;
+    overflow: scroll;
+    height: 200px;
+}
+
+
 
 
 
