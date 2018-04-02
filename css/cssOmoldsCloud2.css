@@ -50,76 +50,7 @@
 <<<<<<< HEAD
 =======
 
-/* @group SITOM */
 
-@ -4808,12 +4808,14 @@ button.close {
-}
-
-.tooltip-inner {
-  max-width:200px;
-  max-width:300px;
-  padding:3px 8px;
-  color:#fff;
-  text-align:center;
-  background-color:#000;
-  background-color:#ff0060;
-  border-radius:0.25rem;
-  
-  
-}
-
-.popover {
-@ -10476,6 +10478,12 @@ hr {
-
-}
-
-/* @end */
-
-
-
-/* @group VICHOM VIDEOS */
-
-
-.cleanRowMargin {
-  
-  width: 100%;
-  margin: 0;
-
-}
-
-
-.iframeVideosVichom{
-  
-  position: absolute; 
-  height: 100%; 
-
-}
-
-
-.videoUsuarioVichom {
-  
-  width: 110px;
-  max-width: 560px;
-  border: 2px solid white;
-  background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-  position: relative;
-  z-index: 10;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-.videoAgenteVichom {
-  
-  width: 100%;
-  /*max-width: 560px;*/
-  background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 5;
-}
-
-/* @end */
 
 
 >>>>>>> 7807d1161344995efc5f20a4088aac2ba1255357
@@ -9722,6 +9653,31 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
     color: #808080;
 }
 
+/* @group SITOM */
+
+@ -4808,12 +4808,14 @@ button.close {
+}
+
+.tooltip-inner {
+  max-width:200px;
+  max-width:300px;
+  padding:3px 8px;
+  color:#fff;
+  text-align:center;
+  background-color:#000;
+  background-color:#ff0060;
+  border-radius:0.25rem;
+  
+  
+}
+
+.popover {
+@ -10476,6 +10478,12 @@ hr {
+
+}
+
+/* @end */
+
 /* @group VICHOM VIDEOS */
 
 
@@ -9790,6 +9746,14 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 
 
+
+
+
+/* @end */
+
+/* @group VICHOM BIENVENIDA*/
+
+
 .vichomBienvenida {
 	  
 	  background-color: #fff;
@@ -9800,11 +9764,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 	  text-align:center;
 	  display:block;
 }
-
-
-/* @end */
-
-/* @group VICHOM BIENVENIDA*/
 
 .vichomBienvenidaLogo {
 		
@@ -10070,8 +10029,9 @@ a:hover {
   color:#AF084D;
 }
 
+/* @group LOGIN */
 
-/*LOGIN*/ 
+
 
 .colorCajasGrises {
   background-color:#808080;
@@ -10105,6 +10065,8 @@ hr {
   border-color: #AEAEAE;
 
 }
+
+/* @end */
 
 /* CRUD */
 
