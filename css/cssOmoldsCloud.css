@@ -47,7 +47,6 @@
 
 .logo-omolds:before { content: 'î €'; }
 
-
 /* @group EstilosBootstrap */
 
 html {
@@ -9647,6 +9646,111 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
     color: #808080;
 }
 
+/* @group VICHOM VIDEOS */
+
+
+.cleanRowMargin {
+	
+	width: 100%;
+	margin: 0;
+
+}
+
+
+.iframeVideosVichom {
+	
+	position: absolute; 
+	height: 85%; 
+
+
+}
+
+.iframeVichomBackground {
+
+	background-color: #000;
+
+}
+
+
+
+.videoUsuarioVichomMovil {
+	
+	width: 15%;
+	/*max-width: 560px;*/
+	border: 2px solid white;
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: relative;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+.videoUsuarioVichomDesktop {
+	
+	width: 20%;
+	/*max-width: 560px;*/
+	border: 2px solid white;
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	position: relative;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+
+.videoAgenteVichom {
+	
+	width: 100%;
+	margin: auto; /*solo al agregarle el 0 antes del auto en imagenes funciona el centrado vertical pero en video no*/
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	left: 0px; top: 0px; bottom: 0px; right: 0px;
+	position: absolute;
+	z-index: 5;
+	
+	
+}
+
+
+
+.vichomBienvenida {
+	  
+	  background-color: #fff;
+	  z-index:80;
+	  position:absolute;
+	  height:100%;
+	  width:100%;
+	  text-align:center;
+	  display:block;
+}
+
+
+/* @end */
+
+/* @group VICHOM BIENVENIDA*/
+
+.vichomBienvenidaLogo {
+		
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 20em;
+	height:auto;
+	text-align:center;
+}
+
+
+.vichomBienvenidaFooter {
+		
+	/*background-color: #9465f3;*/
+	padding-bottom: 20px;
+}
+
+/* @end */
+
+
+
+
 
 /* @group FOOTER OMOLDS */
 
@@ -9780,7 +9884,27 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 /* @end */
 
+/* @group MARGENES */
 
+.margenesCajas {
+  margin:14px;
+}
+
+.margenesTxts {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.margenesEspacio {
+  margin:2px;
+}
+
+.margenesArribaAbajo15px {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+/* @end */
 
 .headerAgenteMovil {
   padding:12px;
@@ -9892,24 +10016,6 @@ a:hover {
 
 .espacioArribaCajas {
   margin-top:10%;
-}
-
-.margenesCajas {
-  margin:14px;
-}
-
-.margenesTxts {
-  margin-top:5px;
-  margin-bottom:5px;
-}
-
-.margenesEspacio {
-  margin:2px;
-}
-
-.margenesArribaAbajo15px {
-  margin-top:15px;
-  margin-bottom:15px;
 }
 
 
@@ -10491,52 +10597,6 @@ hr {
 .popover {
 @ -10476,6 +10478,12 @@ hr {
 
-}
-
-/* @end */
-
-
-
-/* @group VICHOM VIDEOS */
-
-
-.cleanRowMargin {
-	
-	width: 100%;
-	margin: 0;
-
-}
-
-
-.iframeVideosVichom{
-	
-	position: absolute; 
-	height: 100%; 
-
-}
-
-
-.videoUsuarioVichom {
-	
-	width: 110px;
-	max-width: 560px;
-	border: 2px solid white;
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-	position: relative;
-	z-index: 10;
-	margin-top: 5px;
-	margin-left: 5px;
-}
-
-.videoAgenteVichom {
-	
-	width: 100%;
-	/*max-width: 560px;*/
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	z-index: 5;
 }
 
 /* @end */
