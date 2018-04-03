@@ -1,6 +1,4 @@
-
-
-/* @group VICHOM VIDEOS */
+/* @group VICHOM GENERALES */
 
 
 .cleanRowMargin {
@@ -66,9 +64,10 @@
 	
 }
 
-
-
-
+.vichomURLFooter {
+		
+	padding-bottom: 20px;
+}
 
 
 /* @end */
@@ -104,3 +103,216 @@
 }
 
 /* @end */
+
+
+
+/* @group VICHOM ESPERA*/
+
+
+.vichomEsperaVideoYoutube {
+	
+	width: 100%;
+	height: 315px;
+	margin: auto;
+	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+
+
+
+}
+
+
+.vichomEsperaIconoGirando {
+	
+	padding: 10px;
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+
+.iframeEsperaTextoAnimado {
+	
+	padding-top: 15px;
+	height: 30px;
+	/*background-color: yellow;*/
+	
+	
+}
+
+
+
+/* @end */
+
+
+/* @group VICHOM CALIFICACION*/
+
+
+
+.vichomCalificacion{
+	
+	  background-color: #fff;
+	  z-index:80;
+	  position:absolute;
+	  height:100%;
+	  width:100%;
+	  text-align:center;
+	  display:block;
+	
+}
+
+
+
+
+.vichomCalificacionIcono {
+	
+	padding: 35px 10px 10px 10px; 
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+.vichomCalificacionBotones {
+		
+	padding-bottom: 60px;
+}
+
+
+/* @end */
+
+
+/* @group VICHOM CHROME*/
+
+
+.vichomChrome{
+	
+	  background-color: #fff;
+	  z-index:80;
+	  position:absolute;
+	  height:100%;
+	  width:100%;
+	  text-align:center;
+	  display:block;
+	
+}
+
+
+
+.vichomChromeIcono {
+	
+	padding: 35px 10px 10px 10px; 
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+
+/* @end */
+
+
+
+/* @group VICHOM CORTINILLA*/
+
+
+
+
+.vichomCortinilla{
+	
+	background-color: #fff;
+	opacity:0.8;
+	z-index:80;
+	position:absolute;
+	height:100%;
+	width:100%;
+	text-align:center;
+	display:block;
+	 
+	
+}
+
+
+
+
+.vichomCortinillaIcono {
+	
+	padding: 35px 10px 10px 10px; 
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+
+/* @end */
+
+/* @group VICHOM HORARIOS*/
+
+
+
+
+.vichomHorarios{
+	
+	background-color: #fff;
+	z-index:80;
+	position:absolute;
+	height:100%;
+	width:100%;
+	text-align:center;
+	display:block;
+	 
+	
+}
+
+
+
+.vichomHorariosIcono {
+	
+	padding: 35px 10px 10px 10px; 
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+
+/* @end */
+
+/* @group VICHOM AYUDAVENTAS*/
+
+
+
+
+.vichomAyudaventas{
+	
+	background-color: #fff;
+	/*opacity:0.8;*/
+	z-index:1;
+	position:absolute;
+	height:100%;
+	width:100%;
+	text-align:center;
+	display:block;	 
+	
+}
+
+
+
+.vichomAyudaventasImagen {
+	
+	z-index: 5;
+	padding: 20px; 
+		
+}
+
+
+/* @end */
+
+
+
+	
+
+
+
+
+
+
+
+
+

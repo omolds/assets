@@ -1,7 +1,9 @@
 /*HOJA DE ESTILOS BASE BOOTSTRAP OMOLDS*/
 
+/* @group FUENTE OMOLDS */
 
 /* latin-ext */
+
 @font-face {
   font-family: 'Barlow Semi Condensed';
   font-style: normal;
@@ -36,21 +38,9 @@
   font-style: normal;
 }
 
-.logo-omolds
-    {
-      font-family: "IconOmolds";
-      font-style: normal;
-      font-weight: normal;
-      display: inline-block;
-      text-decoration: inherit;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
+/* @end */
 
-.logo-omolds:before { content: 'î €'; }
-
-
-/* @group EstilosBootstrap */
+/* @group NATIVOS BOOTSTRAP */
 
 html {
   box-sizing:border-box;
@@ -88,6 +78,8 @@ bodyOfertom {
   color: #fefb00;
   background-color: #8064aa;
 }
+
+
 
 [tabindex="-1"]:focus {
   outline:none !important;
@@ -9627,13 +9619,25 @@ a.text-dark:focus, a.text-dark:hover {
 
 /* @end */
 
-/*HOJA DE ESTILOS BASE OMOLDS ESPECIFICOS*/ 
+.logo-omolds
+    {
+      font-family: "IconOmolds";
+      font-style: normal;
+      font-weight: normal;
+      display: inline-block;
+      text-decoration: inherit;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
 
+.logo-omolds:before { content: 'î €'; }
 
 .padMar {
   margin:0;
   padding:0;
 }
+
+/*HOJA DE ESTILOS BASE OMOLDS ESPECIFICOS*/
 
 p, span, div, row, column, a, header, input, button, select, optgroup, textarea {
   margin:0;
@@ -9649,10 +9653,78 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
     color: #808080;
 }
 
-/* @group SITOM */
 
-@ -4808,12 +4808,14 @@ button.close {
+/* @group HEADER OMOLDS */
+
+.headerOmolds {
+  background-color: #fff;
+  margin:0;
+  padding:0;
+  padding:5px;
+  max-width:100%!important;
 }
+
+.headerOmoldsLogoCliente {
+	width: 135px;
+}
+
+.headerOmolds span {
+  font-size:37px;
+  padding:0;
+  margin:0;
+  width:auto;
+  font-family:roboto;
+  text-transform:uppercase;
+}
+
+.headerOmolds h1 {
+  margin:0;
+  padding:0;
+}
+
+.headerOmolds .iconProducto {
+  height:50px;
+  width:50px;
+  position:absolute;
+  margin-left:-65px;
+  fill:#ff0060;
+}
+
+.headerOmolds .tituloProductoOM {
+  font-family:'Barlow Semi Condensed', sans-serif;
+  color:#FF0060;
+  letter-spacing:-2px;
+}
+
+.headerOmolds .tituloProducto {
+  font-family:'Barlow Semi Condensed', sans-serif;
+  color:#820639;
+  letter-spacing:-2px;
+}
+
+
+.btn.btn-primary.btn-circle.btnCircular {
+  z-index:30;
+  position: fixed;
+  bottom:33px;
+  /*top: -58px;*/
+  left: 80%;
+  width:55px;
+  height:55px;
+  padding:20px 0px;
+  border-radius:35px;
+  line-height:0.3;
+  font-size:34px;
+  color: #fff;
+  background-color:#ff0060;
+  border-color:#fff;
+  text-decoration:none;
+
+}
+
+/* @end */
+
+/* @group SITOM */
 
 .tooltip-inner {
   max-width:200px;
@@ -9667,10 +9739,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   
 }
 
-.popover {
-@ -10476,6 +10478,12 @@ hr {
-
-}
 
 /* @end */
 
@@ -9730,79 +9798,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 .footerOmoldsOscuro a:hover {
   color: #ff0060;
 }
-
-/* @end */
-
-
-
-/* @group HEADER OMOLDS */
-
-.headerOmolds {
-  background-color:#ffffff;
-  margin:0;
-  padding:0;
-  padding:5px;
-  max-width:100%!important;
-}
-
-.headerOmolds span {
-  font-size:37px;
-  padding:0;
-  margin:0;
-  width:auto;
-  font-family:roboto;
-  text-transform:uppercase;
-}
-
-.headerOmolds h1 {
-  margin:0;
-  padding:0;
-}
-
-.headerOmolds .iconProducto {
-  height:50px;
-  width:50px;
-  position:absolute;
-  margin-left:-65px;
-  fill:#ff0060;
-}
-
-
-
-.headerOmolds .tituloProductoOM {
-  font-family:'Barlow Semi Condensed', sans-serif;
-  color:#FF0060;
-  letter-spacing:-2px;
-}
-
-.headerOmolds .tituloProducto {
-  font-family:'Barlow Semi Condensed', sans-serif;
-  color:#820639;
-  letter-spacing:-2px;
-}
-
-
-.btn.btn-primary.btn-circle.btnCircular {
-  z-index:30;
-  position: fixed;
-  bottom:33px;
-  /*top: -58px;*/
-  left: 80%;
-  width:55px;
-  height:55px;
-  padding:20px 0px;
-  border-radius:35px;
-  line-height:0.3;
-  font-size:34px;
-  color: #fff;
-  background-color:#ff0060;
-  border-color:#fff;
-  text-decoration:none;
-
-}
-
-
-
 
 /* @end */
 
@@ -9925,13 +9920,15 @@ a:hover {
 }
 
 
+.colorCajasOscuras {
+  background-color:#820639;
+}
+
+
 .colorCajasBlancas {
   background-color:#FFFFFF;
 }
 
-.colorCajasOscuras {
-  background-color:#820639;
-}
 
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .row{
   min-height: 220px;
@@ -10310,6 +10307,16 @@ hr {
 }
 
 
+.baseBlancaTraslucida {
+	  width:100%;
+	  position:absolute;
+	  height:100%;
+	  z-index:50;
+	  opacity:0.8;
+	  display:block;
+	  top:0;
+	  background-color: aqua;
+}
 
 .modalBienvenida {
 	  background-color:#fff;
@@ -10506,8 +10513,6 @@ hr {
     overflow: scroll;
     height: 200px;
 }
-
-
 
 
 
