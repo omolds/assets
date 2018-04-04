@@ -70,6 +70,8 @@
 }
 
 
+
+
 /* @end */
 
 
@@ -304,9 +306,60 @@
 
 /* @end */
 
+/* @group VICHOM ROTAR*/
 
 
+.vichomRotar{
 	
+	  background-color: #fff;
+	  z-index:80;
+	  position:absolute;
+	  height:100%;
+	  width:100%;
+	  text-align:center;
+	  display:block;
+	
+}
+
+
+
+.vichomRotarIcono {
+	
+	padding: 35px 10px 10px 10px; 
+	font-size: 10em;
+	color: #ff0060;
+	
+}
+
+
+/* @end */
+
+
+
+
+
+.vichomBotonCircular {
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px;
+    border-radius: 35px;
+    font-size: 20px;
+    line-height: 1.33;
+    z-index: 200;
+}
+
+.vichomBotonCircularColZindex {
+ 
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
 
 
 
