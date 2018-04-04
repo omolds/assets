@@ -12,7 +12,7 @@
 .iframeVideosVichom {
 	
 	position: absolute; 
-	height: 85%; 
+	height: 82%; 
 
 
 }
@@ -338,6 +338,9 @@
 
 
 
+
+/* @group VICHOM BOTON CIRCULAR*/
+
 .vichomBotonCircular {
     width: 50px;
     height: 50px;
@@ -348,10 +351,15 @@
     z-index: 200;
 }
 
+
 .vichomBotonCircularColZindex {
  
     z-index: 10;
 }
+
+
+/* @end */
+
 
 
 

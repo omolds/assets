@@ -9825,6 +9825,12 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   margin-top:30px;
   margin-bottom:30px;
 }
+
+.margenesDerechaIzquierda15px {
+  margin-left:15px;
+  margin-right:15px;
+ 
+}
 /* @end */
 
 .headerAgenteMovil {
