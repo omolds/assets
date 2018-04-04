@@ -9807,6 +9807,10 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   margin:14px;
 }
 
+.margenesCompletas10px {
+  margin:10px;
+}
+
 .margenesTxts {
   margin-top:5px;
   margin-bottom:5px;
@@ -10366,7 +10370,7 @@ hr {
 	.modal.right .modal-dialog {
 		position: fixed;
 		margin: auto;
-		width: 320px;
+		width: 330px;
 		height: 100%;
 		-webkit-transform: translate3d(0%, 0, 0);
 		    -ms-transform: translate3d(0%, 0, 0);
@@ -10393,11 +10397,11 @@ hr {
 
 /*Left*/
 	.modal.left.fade .modal-dialog{
-		left: -320px;
-		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
-		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
-		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
-		        transition: opacity 0.3s linear, left 0.3s ease-out;
+		left: 330px;
+		-webkit-transition: opacity 0.8s linear, left 0.3s ease-out;
+		   -moz-transition: opacity 0.8s linear, left 0.3s ease-out;
+		     -o-transition: opacity 0.8s linear, left 0.3s ease-out;
+		        transition: opacity 0.8s linear, left 0.3s ease-out;
 	}
 	
 	.modal.left.fade.in .modal-dialog{
@@ -10406,11 +10410,11 @@ hr {
         
 /*Right*/
 	.modal.right.fade .modal-dialog {
-		right: -320px;
-		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-		        transition: opacity 0.3s linear, right 0.3s ease-out;
+		right: 330px;
+		-webkit-transition: opacity 0.8s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.8s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.8s linear, right 0.3s ease-out;
+		        transition: opacity 0.8s linear, right 0.3s ease-out;
 	}
 	
 	.modal.right.fade.in .modal-dialog {

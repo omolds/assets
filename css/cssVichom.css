@@ -28,9 +28,11 @@
 .videoUsuarioVichomMovil {
 	
 	width: 15%;
+	min-height: 100px;
 	/*max-width: 560px;*/
 	border: 2px solid white;
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	background: #808080 url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
+	background-size: 200% auto;
 	position: relative;
 	z-index: 10;
 	margin-top: 5px;
@@ -41,9 +43,11 @@
 .videoUsuarioVichomDesktop {
 	
 	width: 20%;
+	min-height: 100px;
 	/*max-width: 560px;*/
 	border: 2px solid white;
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	background: #808080 url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
+	background-size: 200% auto;
 	position: relative;
 	z-index: 10;
 	margin-top: 5px;
@@ -56,7 +60,7 @@
 	
 	width: 100%;
 	margin: auto; /*solo al agregarle el 0 antes del auto en imagenes funciona el centrado vertical pero en video no*/
-	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
+	background: #808080 url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
 	left: 0px; top: 0px; bottom: 0px; right: 0px;
 	position: absolute;
 	z-index: 5;
@@ -356,6 +360,32 @@
  
     z-index: 10;
 }
+
+
+/* @end */
+
+
+
+/* @group VICHOM CHAT*/
+
+.vichomChat {
+    
+    width: 330px;
+    /*background-color: blue;*/
+
+}
+
+
+.vichomChatInput {
+    
+	height:35px;
+	width:100%;
+	border-radius: 0;
+
+}
+
+
+
 
 
 /* @end */
