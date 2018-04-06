@@ -46,7 +46,7 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-.logo-omolds:before { content: 'î €'; }
+.logo-omolds:before { content: ''; }
 
 /* @end */
 
@@ -483,7 +483,7 @@ mark, .mark {
 }
 
 code, kbd, pre, samp {
-  font-family:Roboto;
+  font-family:'Barlow Semi Condensed', sans-serif;
 }
 
 code {
@@ -4692,7 +4692,7 @@ button.close {
   z-index:1070;
   display:block;
   margin:0;
-  font-family:Roboto;
+  font-family:'Barlow Semi Condensed', sans-serif;
   font-style:normal;
   font-weight:normal;
   line-height:1.5;
@@ -4806,7 +4806,7 @@ button.close {
   display:block;
   max-width:276px;
   padding:1px;
-  font-family:Roboto;
+  font-family:'Barlow Semi Condensed', sans-serif;
   font-style:normal;
   font-weight:normal;
   line-height:1.5;
@@ -9680,7 +9680,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   padding:0;
   margin:0;
   width:auto;
-  font-family:roboto;
+  font-family:'Barlow Semi Condensed', sans-serif;
   text-transform:uppercase;
 }
 
