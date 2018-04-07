@@ -3847,7 +3847,7 @@ tbody.collapse.show {
   margin-top: 10px;
   margin-bottom: 0px;
   list-style:none;
-  background-color:#cacaca;
+  background-color:transparent;
 }
 
 .breadcrumb::after {
@@ -9872,9 +9872,6 @@ a:hover {
   background-color:#FFFFFF;
 }
 
-.col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .row{
-  min-height: 220px;
-}
 
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .dataTable{
   min-height: 600px;
