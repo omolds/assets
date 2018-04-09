@@ -116,35 +116,29 @@
 
 
 .vichomEsperaVideoYoutube {
-	
 	width: 100%;
 	height: 315px;
 	margin: auto;
 	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
-
-
-
 }
 
 
 .vichomEsperaIconoGirando {
-	
 	padding: 10px;
 	font-size: 10em;
 	color: #ff0060;
-	
 }
 
 
-.iframeEsperaTextoAnimado {
-	
+.vichomEsperaBackground {
+	background-color: #ffffff;
+}
+
+
+.iframeEsperaTextoAnimado {	
 	padding-top: 15px;
-	height: 30px;
-	/*background-color: yellow;*/
-	
-	
+	height: 30px;	
 }
-
 
 
 /* @end */
@@ -222,9 +216,8 @@
 
 
 .vichomCortinilla{
-	
-	background-color: #fff;
-	opacity:0.8;
+	background-color: #ffffff;
+	opacity:0.9;
 	z-index:80;
 	position:absolute;
 	height:100%;
@@ -232,18 +225,13 @@
 	text-align:center;
 	display:block;
 	 
-	
 }
 
 
-
-
-.vichomCortinillaIcono {
-	
+.vichomCortinillaIcono {	
 	padding: 35px 10px 10px 10px; 
 	font-size: 10em;
-	color: #ff0060;
-	
+	color: #ff0060;	
 }
 
 
@@ -285,26 +273,22 @@
 
 
 
-.vichomAyudaventas{
-	
+.vichomAyudaventas{	
 	background-color: #fff;
-	/*opacity:0.8;*/
 	z-index:1;
 	position:absolute;
 	height:100%;
 	width:100%;
 	text-align:center;
 	display:block;	 
-	
 }
 
 
 
 .vichomAyudaventasImagen {
-	
 	z-index: 5;
-	padding: 20px; 
-		
+	max-height: 550px;
+	padding: 20px; 	
 }
 
 

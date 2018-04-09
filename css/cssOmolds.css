@@ -9909,8 +9909,8 @@ hr {
 
 /* @end */
 
-/* @group CRUD*/
 
+/* @group CRUD */
 
 .espaciosPestanas {
   margin-bottom:0;
@@ -9918,6 +9918,8 @@ hr {
   color:#ffffff;
   padding:7px;
 }
+
+/* @end */
 
 
 
@@ -10116,7 +10118,7 @@ hr {
 
 
 
-/*FIN*/
+
 
 
 /* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
