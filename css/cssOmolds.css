@@ -10018,7 +10018,7 @@ hr {
 
 /* @end */
 
-/* @group MODALES BOOTSTRAP */
+/* @group MODALES */
 
 
 .modalInferior {
@@ -10033,17 +10033,20 @@ hr {
   /*opacity:0.96;*/
 }
 
-.sombraModales {
+.modalSombra {
   width:100%;
   position:absolute;
   height:100%;
   z-index:50;
-  opacity:0.8;
+  opacity:0.7;
   display:block;
   top:0;
   color:#ffffff;
-  background-color:#000000;
+  background-color: #000000;
 }
+
+
+
 
 /* @end */
 
@@ -10117,11 +10120,68 @@ hr {
 
 
 
+/* @group MODAL CIRCULAR*/
+
+#idmodalCircular { 
+	
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	background: #ff0060;
+	
+	
+	/*estos tres valores deben ser la mitad del tamaño*/
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	
+	left: 0px; top: 0px; bottom: 0px; right: 0px;
+	z-index: 100;
+}
+
+
+.modalCircularContenedor {
+  position: relative;
+
+
+}
+
+.modalCircularContenido {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+
+}
+
+
+.modalCircularContenido .icon {
+
+	color: #ffffff;
+	font-size: 7em;
+
+}
+
+.modalCircularAltoIcono {
+	height: 93px;
+}
+
+.modalCircularAltoTexto {
+	height: 15px;
+    margin-top: -25px;
+}
+
+   
+
+/* @end */
 
 
 
 
-/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
+
+
+
+
+/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
 .cajonBotonCuadrado {
     height: 120px;
@@ -10163,9 +10223,11 @@ hr {
     cursor: pointer;
 }
 
+/* @end */
 
-/*BOTONES PEQUEÃƒâ€˜OS SOLO ICONO*/
 
+
+/* @group BOTONES PEQUENOS SOLO ICONO*/
 
 .cajonBotonCuadradoPequeno {
     height: 40px;
@@ -10190,6 +10252,9 @@ hr {
     color:#FF0060;/*color del icono*/
 
 }
+
+/* @end */
+
 
 
 /* @group BOTONES SWITCH SYN */
