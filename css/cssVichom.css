@@ -117,15 +117,15 @@
 
 .vichomEsperaVideoYoutube {
 	width: 100%;
-	height: 315px;
+	height: 250px;
 	margin: auto;
 	background: #808080 url(https://raw.githubusercontent.com/omolds/assets/master/images/vichom/videoNoCargado.png) no-repeat center center;
 }
 
 
 .vichomEsperaIconoGirando {
-	padding: 10px;
-	font-size: 10em;
+	padding: 5px;
+	font-size: 7em;
 	color: #ff0060;
 }
 
