@@ -9873,6 +9873,12 @@ a:hover {
 }
 
 
+.colorCajasOscuras {
+  background-color:#5f042a;
+}
+
+
+
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .dataTable{
   min-height: 600px;
 }
