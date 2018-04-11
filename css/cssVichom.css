@@ -399,11 +399,16 @@
 #idgloboMensajes p {
 	margin-top: -4px;
 	font-size: 10px;
-	font-weight: bold;
 	color: #000000;
+	
 
 }
 
+
+.globoMensajesContador {
+	display: none;
+
+}
 /* @end */
 
 
