@@ -10094,7 +10094,7 @@ hr {
 		        transition: opacity 0.3s linear, left 0.3s ease-out;
 	}
   
-  .modal.left.fade.in .modal-dialog{
+  .modal.left.fade.show .modal-dialog{
     left: 0px;
   }
         
@@ -10107,7 +10107,7 @@ hr {
             transition: opacity 0.8s linear, right 0.3s ease-out;
   }
   
-  .modal.right.fade.in .modal-dialog {
+  .modal.right.fade.show .modal-dialog {
     right: 0;
   }
 
