@@ -9619,6 +9619,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   font-size:13px;
   color:#000000;
   font-weight: 500;
+  word-wrap: break-word;
 
 }
 
@@ -10086,7 +10087,7 @@ hr {
 
 /*Left*/
   .modal.left.fade .modal-dialog{
-    left: 330px;
+    left: 0px;
     -webkit-transition: opacity 0.8s linear, left 0.3s ease-out;
        -moz-transition: opacity 0.8s linear, left 0.3s ease-out;
          -o-transition: opacity 0.8s linear, left 0.3s ease-out;
@@ -10094,7 +10095,7 @@ hr {
   }
   
   .modal.left.fade.in .modal-dialog{
-    left: 0;
+    left: 330px;
   }
         
 /*Right*/
