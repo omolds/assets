@@ -9619,7 +9619,6 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   font-size:13px;
   color:#000000;
   font-weight: 500;
-  word-wrap: break-word;
 
 }
 
@@ -9874,12 +9873,6 @@ a:hover {
 }
 
 
-.colorCajasOscuras {
-  background-color:#5f042a;
-}
-
-
-
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .dataTable{
   min-height: 600px;
 }
@@ -10025,7 +10018,7 @@ hr {
 
 /* @end */
 
-/* @group MODALES */
+/* @group MODALES BOOTSTRAP */
 
 
 .modalInferior {
@@ -10040,20 +10033,17 @@ hr {
   /*opacity:0.96;*/
 }
 
-.modalSombra {
+.sombraModales {
   width:100%;
   position:absolute;
   height:100%;
   z-index:50;
-  opacity:0.7;
+  opacity:0.8;
   display:block;
   top:0;
   color:#ffffff;
-  background-color: #000000;
+  background-color:#000000;
 }
-
-
-
 
 /* @end */
 
@@ -10061,17 +10051,17 @@ hr {
 /* @group MODALES ANIMACION LEFT RIGHT */
 
 
-.modal.left .modal-dialog,
-.modal.right .modal-dialog {
-	position: fixed;
-	margin: auto;
-	width: 320px;
-	height: 100%;
-	-webkit-transform: translate3d(0%, 0, 0);
-	    -ms-transform: translate3d(0%, 0, 0);
-	     -o-transform: translate3d(0%, 0, 0);
-	        transform: translate3d(0%, 0, 0);
-}
+  .modal.left .modal-dialog,
+  .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 330px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+  }
 
 
   .modal.left .modal-content,
@@ -10086,16 +10076,16 @@ hr {
   }
 
 /*Left*/
-	.modal.left.fade .modal-dialog{
-		left: -330px;
-		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
-		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
-		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
-		        transition: opacity 0.3s linear, left 0.3s ease-out;
-	}
+  .modal.left.fade .modal-dialog{
+    left: 330px;
+    -webkit-transition: opacity 0.8s linear, left 0.3s ease-out;
+       -moz-transition: opacity 0.8s linear, left 0.3s ease-out;
+         -o-transition: opacity 0.8s linear, left 0.3s ease-out;
+            transition: opacity 0.8s linear, left 0.3s ease-out;
+  }
   
-  .modal.left.fade.show .modal-dialog{
-    left: 0px;
+  .modal.left.fade.in .modal-dialog{
+    left: 0;
   }
         
 /*Right*/
@@ -10107,7 +10097,7 @@ hr {
             transition: opacity 0.8s linear, right 0.3s ease-out;
   }
   
-  .modal.right.fade.show .modal-dialog {
+  .modal.right.fade.in .modal-dialog {
     right: 0;
   }
 
@@ -10127,68 +10117,11 @@ hr {
 
 
 
-/* @group MODAL CIRCULAR*/
-
-#idmodalCircular { 
-	
-	margin: 0 auto;
-	width: 250px;
-	height: 250px;
-	background: #ff0060;
-	
-	
-	/*estos tres valores deben ser la mitad del tamaño*/
-	-moz-border-radius: 150px;
-	-webkit-border-radius: 150px;
-	border-radius: 150px;
-	
-	left: 0px; top: 0px; bottom: 0px; right: 0px;
-	z-index: 100;
-}
-
-
-.modalCircularContenedor {
-  position: relative;
-
-
-}
-
-.modalCircularContenido {
-  position: absolute;
-  top: 50%;
-  transform: translateY(50%);
-
-}
-
-
-.modalCircularContenido .icon {
-
-	color: #ffffff;
-	font-size: 7em;
-
-}
-
-.modalCircularAltoIcono {
-	height: 93px;
-}
-
-.modalCircularAltoTexto {
-	height: 15px;
-    margin-top: -25px;
-}
-
-   
-
-/* @end */
 
 
 
 
-
-
-
-
-/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
+/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO*/
 
 .cajonBotonCuadrado {
     height: 120px;
@@ -10230,11 +10163,9 @@ hr {
     cursor: pointer;
 }
 
-/* @end */
 
+/*BOTONES PEQUEÃƒâ€˜OS SOLO ICONO*/
 
-
-/* @group BOTONES PEQUENOS SOLO ICONO*/
 
 .cajonBotonCuadradoPequeno {
     height: 40px;
@@ -10259,9 +10190,6 @@ hr {
     color:#FF0060;/*color del icono*/
 
 }
-
-/* @end */
-
 
 
 /* @group BOTONES SWITCH SYN */
@@ -10342,93 +10270,6 @@ hr {
   -o-transition: left 0.15s ease-out;
   transition: left 0.15s ease-out;
 }
-
-/* @end */
-
-/* @group BOTONES ANIMACIONES */
-
-
-
-.pulse {
-	-webkit-animation: pulse 1s linear infinite;
-	-moz-animation: pulse 1s linear infinite;
-	-ms-animation: pulse 1s linear infinite;
-	animation: pulse 1s linear infinite;
-}
-
-@keyframes "pulse" {
- 0% {
-    -webkit-transform: scale(1.1);
-   	-moz-transform: scale(1.1);
-   	-o-transform: scale(1.1);
-   	-ms-transform: scale(1.1);
-   	transform: scale(1.1);
- }
- 50% {
-    -webkit-transform: scale(0.8);
-   	-moz-transform: scale(0.8);
-   	-o-transform: scale(0.8);
-   	-ms-transform: scale(0.8);
-   	transform: scale(0.8);
- }
- 100% {
-    -webkit-transform: scale(1);
-   	-moz-transform: scale(1);
-   	-o-transform: scale(1);
-   	-ms-transform: scale(1);
-   	transform: scale(1);
- }
-
-}
-
-@-moz-keyframes pulse {
- 0% {
-   -moz-transform: scale(1.1);
-   transform: scale(1.1);
- }
- 50% {
-   -moz-transform: scale(0.8);
-   transform: scale(0.8);
- }
- 100% {
-   -moz-transform: scale(1);
-   transform: scale(1);
- }
-
-}
-
-@-webkit-keyframes "pulse" {
- 0% {
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
- }
- 50% {
-   -webkit-transform: scale(0.8);
-   transform: scale(0.8);
- }
- 100% {
-   -webkit-transform: scale(1);
-   transform: scale(1);
- }
-
-}
-
-@-ms-keyframes "pulse" {
- 0% {
-   -ms-transform: scale(1.1);
-   transform: scale(1.1);
- }
- 50% {
-   -ms-transform: scale(0.8);
-   transform: scale(0.8);
- }
- 100% {
-   -ms-transform: scale(1);
-   transform: scale(1);
- }
-
-}
-
 
 /* @end */
 
@@ -10515,9 +10356,7 @@ hr {
   cursor: pointer;
 }
 
-audio{
-  width: 98%;
-}
+
 
 
 
