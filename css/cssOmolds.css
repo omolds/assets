@@ -3844,7 +3844,7 @@ tbody.collapse.show {
 
 .breadcrumb {
   padding:10px 10px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   margin-bottom: 0px;
   list-style:none;
   background-color:transparent;
@@ -10193,7 +10193,7 @@ hr {
 .cajonBotonCuadrado {
     height: 120px;
     width: 120px;
-    margin:14px;
+    margin:10px;
     color:#ff0060;
     background-color:#F2F2F2;
     
