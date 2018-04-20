@@ -77,7 +77,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 body {
   margin:0;
   font-family:'Barlow Semi Condensed', sans-serif;
-  color:#fefb00;
+  color:#000000;
   background-color:#FF0060;
   margin-bottom: 60px;
 }
@@ -10187,20 +10187,20 @@ hr {
     border-radius: 35px;
     font-size: 20px;
     line-height: 1.33;
-    z-index: 200;
+    border-color: #fafafa;    
+    /*aqui se define la posicion del boton y que este adelante de todo*/
+    z-index: 1500;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    margin-bottom: 60px;
 }
 
 
-.botonCircularColZindex {
+/*.botonCircularColZindex {
  
     z-index: 1000;
-}
-
-
-
-
-
-
+}*/
 
 /* @end */
 
@@ -10213,9 +10213,9 @@ hr {
 .cajonBotonCuadrado {
     height: 120px;
     width: 120px;
-    margin:10px;
+    margin:8px;
     color:#ff0060;
-    background-color:#fafafa;
+    background-color:#cacaca;
     
 }
 
@@ -10538,6 +10538,8 @@ hr {
 audio{
   width: 98%;
 }
+
+
 
 
 
