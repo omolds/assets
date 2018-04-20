@@ -9623,6 +9623,11 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
 
 }
 
+input,  textarea {
+  border: 1px solid #cacaca;
+
+}
+
 .inputLargo {
     width: 99%;
     color:#808080;
