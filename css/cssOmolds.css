@@ -10143,8 +10143,8 @@ hr {
 /* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
 .cajonBotonCuadrado {
-    height: 115px;
-    width: 115px;
+    height: 108px;
+    width: 108px;
     margin:3px;
     color:#ff0060;
     background-color:#cacaca;
@@ -10155,7 +10155,7 @@ hr {
 .cajonBotonCuadrado .icon   {
     height:40px;
     margin-top: 20px;
-    margin-bottom: -30px;
+    margin-bottom: -22px;
 
 }
 
