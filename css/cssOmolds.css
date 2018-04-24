@@ -10215,6 +10215,34 @@ hr {
 
 /* @end */
 
+/* @group BOTONES PEQUENOS SOLO ICONO OSCUROS*/
+
+.cajonBotonCuadradoPequenoOscuro {
+    height: 40px;
+    width: 40px;
+    margin:3px;/*espacio alrededor del btn*/
+    background-color:#ff0060; /*color del fondo del icono*/
+    
+}
+
+
+.cajonBotonCuadradoPequenoOscuro .icon   {
+    height:40px;
+    margin-top: 0px;
+    margin-bottom: -40px;
+
+}
+
+
+.cajonBotonCuadradoPequenoOscuro .icon a   {
+    font-size: 26px;
+    height:22px;
+    color:#ffffff;/*color del icono*/
+
+}
+
+/* @end */
+
 
 
 /* @group BOTONES SWITCH SYN */
