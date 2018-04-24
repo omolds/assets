@@ -10191,7 +10191,7 @@ hr {
 .cajonBotonCuadradoPequeno {
     height: 40px;
     width: 40px;
-    margin:15px;/*espacio alrededor del btn*/
+    margin:3px;/*espacio alrededor del btn*/
     background-color:#fafafa; /*color del fondo del icono*/
     
 }
