@@ -9955,80 +9955,6 @@ hr {
 
 /* @end */
 
-
-
-/* @group BOTONES PEQUENOS SOLO ICONO */
-
-.cajonBotonCuadradoPequeno {
-    height: 40px;
-    width: 40px;
-    margin:15px;/*espacio alrededor del btn*/
-    background-color: #fafafa; /*color del fondo del icono*/
-    
-}
-
-
-.cajonBotonCuadradoPequeno .icon   {
-    height:40px;
-    margin-top: 0px;
-    margin-bottom: -40px;
-
-}
-
-
-.cajonBotonCuadradoPequeno .icon a   {
-    font-size: 26px;
-    height:22px;
-    color: #FF0060;/*color del icono*/
-
-}
-
-/* @end */
-
-/* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
-
-.cajonBotonCuadrado {
-    height: 120px;
-    width: 120px;
-    margin:14px;
-    color: #ff0060;
-    background-color: #fafafa;
-    
-}
-
-
-.cajonBotonCuadrado .icon   {
-    height:40px;
-    margin-top: 20px;
-    margin-bottom: -30px;
-
-}
-
-
-.cajonBotonCuadrado .icon a   {
-    font-size: 27px;
-    height:22px;
-    color: #FF0060;
-
-}
-
-.cajonBotonCuadrado .title  {
-    height:30px;
-    color: #FF0060;
-    
-    
-}
-
-
-.cajonBotonCuadrado .title a {
-    font-size: 14px;
-    color: #ff0060;
-    line-height: normal;
-    cursor: pointer;
-}
-
-/* @end */
-
 /* @group MODALES */
 
 
@@ -10217,9 +10143,9 @@ hr {
 /* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
 .cajonBotonCuadrado {
-    height: 120px;
-    width: 120px;
-    margin:8px;
+    height: 115px;
+    width: 115px;
+    margin:3px;
     color:#ff0060;
     background-color:#cacaca;
     
