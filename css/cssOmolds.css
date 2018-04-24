@@ -9828,6 +9828,7 @@ input,  textarea {
 .margenesTxts {
   margin-top:5px;
   margin-bottom:5px;
+  width: 100%;
 }
 
 .margenesEspacio {
@@ -9855,6 +9856,17 @@ input,  textarea {
 
 
 
+/* @group PADDING*/
+
+.paddingCompleto15px {
+  padding: 15px;
+}
+
+/* @end */
+
+
+
+
 
 a {
   color:#5f042a;
@@ -9871,6 +9883,9 @@ a:hover {
   background-color:#808080;
 }
 
+.colorCajasSecundarioMedio {
+  background-color:#858585;
+}
 
 .colorCajasBlancas {
   background-color:#fafafa;
@@ -9889,20 +9904,6 @@ a:hover {
 
 .espacioArribaCajas {
   margin-top:10%;
-}
-
-.margenesCajas {
-  margin:14px;
-}
-
-.margenesTxts {
-  margin-top:5px;
-  margin-bottom:5px;
-  width: 100%;
-}
-
-.margenesEspacio {
-  margin:2px;
 }
 
 
