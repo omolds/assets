@@ -9678,6 +9678,10 @@ input,  textarea {
   max-width:100%!important;
 }
 
+.headerOmolds img{
+	height: 60px;
+}
+
 .headerOmoldsLogoCliente {
   width: 135px;
 }
