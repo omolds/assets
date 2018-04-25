@@ -10876,10 +10876,7 @@ audio{
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffefefe', endColorstr='#fff2f2f2', GradientType=0);
 }
-.selectize-control.single .selectize-input,
-.selectize-dropdown.single {
-  border-color: #5f042a;
-}
+
 .selectize-dropdown .optgroup-header {
   padding-top: 7px;
   font-weight: bold;
