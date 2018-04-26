@@ -9679,12 +9679,9 @@ input,  textarea {
 }
 
 .headerOmolds img{
-width: 150px;
+ width: 150px;
 }
 
-.headerOmoldsLogoCliente {
-  width: 135px;
-}
 
 .headerOmolds span {
   font-size:37px;
