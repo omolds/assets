@@ -50,7 +50,10 @@
 }
 
 .year {
-    width: -webkit-calc(100% - 10px);
+	display: flex;
+	padding: 5px;
+}
+    /*width: -webkit-calc(100% - 10px);
     width: -moz-calc(100% - 10px);
     width: calc(100% - 10px);
     display: -webkit-box;
@@ -70,9 +73,8 @@
     -webkit-justify-content: center;
     -moz-box-pack: center;
     justify-content: center;
-    padding: 5px;
-    font-size: 14px
-}
+    font-size: 14px*/
+
 
 .year > span {
     -webkit-box-flex: 1;
