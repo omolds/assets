@@ -44,9 +44,9 @@
 					3 // maximum length of the calendar labels
 				], [
 					"#D90052", // primary color
-					"#ff0060", // primary dark color
+					"#ffffff", // primary dark color
 					"#858585", // text color
-					"#ffffff" // text dark color
+					"#ff0060" // text dark color
 				],
 				{
 					// placeholder: "" // Removes Organizer's Placeholder
