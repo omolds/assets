@@ -451,10 +451,13 @@
     height: 800px
 }
 
+
+/*FECHA DE EVENTO*/
+
 .date {
-    width: -webkit-calc(100% - 10px);
+    /*width: -webkit-calc(100% - 10px);
     width: -moz-calc(100% - 10px);
-    width: calc(100% - 10px);
+    width: calc(100% - 10px);*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
