@@ -314,15 +314,16 @@
     -moz-box-orient: horizontal;
     -moz-box-direction: normal;
     flex-direction: row;
-    border-bottom: 1px solid rgba(21, 21, 21, .12);
-    border-right: 1px solid rgba(21, 21, 21, .12);
+    border-bottom: 2px solid;
+    border-right: 4px solid ;
     -webkit-transition: box-shadow 200ms ease-in-out;
     -webkit-transition: -webkit-box-shadow 200ms ease-in-out;
     transition: -webkit-box-shadow 200ms ease-in-out;
     -o-transition: box-shadow 200ms ease-in-out;
     -moz-transition: box-shadow 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
     transition: box-shadow 200ms ease-in-out;
-    transition: box-shadow 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out
+    transition: box-shadow 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	border-color: #ff4226;
 }
 
 .day:last-child {
@@ -351,7 +352,8 @@
     width: auto;
     height: fit-content;
     font-size: 14px;
-    color: rgba(21, 21, 21, 0.84)
+    color: rgba(21, 21, 21, 0.84);
+    padding-left: 18px;
 }
 
 .day.today > span {
@@ -435,7 +437,7 @@
 
 .events.small {
 	width: 100%;
-    height: 350px;
+    height: 100px;
 }
 
 .events.medium {
