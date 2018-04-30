@@ -16,14 +16,14 @@
 								data[date.getFullYear() + i][j + 1][l].push({
 									startTime: "10:00",
 									endTime: "12:00",
-									text: "Some Event Here"
+									text: "Agende aquí su cita"
 								});
 							} catch (e) {
 								data[date.getFullYear() + i][j + 1][l] = [];
 								data[date.getFullYear() + i][j + 1][l].push({
 									startTime: "10:00",
 									endTime: "12:00",
-									text: "Some Event Here"
+									text: "Agende aquí su cita"
 								});
 							}
 						}
@@ -45,8 +45,8 @@
 				], [
 					"#5f042a", // primary color
 					"#ff0060", // primary dark color
-					"#ffffff", // text color
-					"#858585" // text dark color
+					"#858585", // text color
+					"#ffffff" // text dark color
 				],
 				{
 					// placeholder: "" // Removes Organizer's Placeholder
