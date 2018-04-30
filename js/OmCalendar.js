@@ -43,10 +43,10 @@
 					"Wednesday", // left most day of calendar labels
 					3 // maximum length of the calendar labels
 				], [
-					"#D90052", // primary color
-					"#ffffff", // primary dark color
-					"#858585", // text color
-					"#ff0060" // text dark color
+					"#5f042a", // primary color
+					"#ff0060", // primary dark color
+					"#ffffff", // text color
+					"#858585" // text dark color
 				],
 				{
 					// placeholder: "" // Removes Organizer's Placeholder
