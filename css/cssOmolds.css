@@ -78,6 +78,8 @@ html {
   -ms-text-size-adjust:100%;
   -ms-overflow-style:scrollbar;
   -webkit-tap-highlight-color:transparent;
+  color:#000000;
+  background-color:#FF0060;
 }
 
 *, *::before, *::after {
