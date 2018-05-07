@@ -10072,8 +10072,6 @@ hr {
 
 /* @end */
 
-
-
 /* @group MODAL CIRCULAR*/
 
 #idmodalCircular { 
@@ -10125,6 +10123,47 @@ hr {
 }
 
    
+
+/* @end */
+
+/* @group MODAL CUADRADA*/
+
+#idmodalCuadrada { 
+	
+	margin: 0 auto;
+	width: 340px;
+	height: 210px;
+	background: #ffffff;
+	left: 0px; top: 0px; bottom: 0px; right: 0px;
+	z-index: 101;
+}
+
+
+.modalCuadradaContenedor {
+  position: relative;
+
+
+}
+
+.modalCuadradaContenido {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+
+}   
+
+
+.modalCuadradaContenido .icon {
+
+	color:#ff0060;
+	font-size: 7em;
+
+}
+
+.modalCuadradaAltoIcono {
+	height: 93px;
+}
+
 
 /* @end */
 
