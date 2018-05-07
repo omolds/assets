@@ -371,7 +371,7 @@
 	margin: 0 auto;
 	width: 16px;
 	height: 16px;
-	background: #ffffff;
+	background: #fafafa;
 	/*estos tres valores deben ser la mitad del tamaño*/
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
