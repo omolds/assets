@@ -10131,52 +10131,39 @@ hr {
 #idmodalCuadrada { 
 	
 	margin: 0 auto;
-	width: 250px;
-	height: 250px;
-	background: #46ff33;
-	
-	
-	/*estos tres valores deben ser la mitad del tamaño*/
-	-moz-border-radius: 150px;
-	-webkit-border-radius: 150px;
-	border-radius: 150px;
-	
+	width: 340px;
+	height: 210px;
+	background: #ffffff;
 	left: 0px; top: 0px; bottom: 0px; right: 0px;
-	z-index: 100;
+	z-index: 101;
 }
 
 
-.modalCircularContenedor {
+.modalCuadradaContenedor {
   position: relative;
 
 
 }
 
-.modalCircularContenido {
+.modalCuadradaContenido {
   position: absolute;
   top: 50%;
   transform: translateY(50%);
 
-}
+}   
 
 
-.modalCircularContenido .icon {
+.modalCuadradaContenido .icon {
 
-	color: #ffffff;
+	color:#ff0060;
 	font-size: 7em;
 
 }
 
-.modalCircularAltoIcono {
+.modalCuadradaAltoIcono {
 	height: 93px;
 }
 
-.modalCircularAltoTexto {
-	height: 15px;
-    margin-top: -25px;
-}
-
-   
 
 /* @end */
 
