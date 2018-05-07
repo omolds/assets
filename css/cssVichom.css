@@ -60,7 +60,7 @@
 	
 	width: 100%;
 	margin: auto; /*solo al agregarle el 0 antes del auto en imagenes funciona el centrado vertical pero en video no*/
-	background: #808080 url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
+	background: transparent url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
 	left: 0px; top: 0px; bottom: 0px; right: 0px;
 	position: absolute;
 	z-index: 5;
