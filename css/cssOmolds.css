@@ -79,7 +79,7 @@ html {
   -ms-overflow-style:scrollbar;
   -webkit-tap-highlight-color:transparent;
   color:#000000;
-  background-color:#FF0060;
+  background-color:#FAFAFA;
 }
 
 *, *::before, *::after {
@@ -98,7 +98,7 @@ body {
   margin:0;
   font-family:'Barlow Semi Condensed', sans-serif;
   color:#000000;
-  background-color:#FF0060;
+  background-color:#FAFAFA;
   margin-bottom: 60px;
 }
 
