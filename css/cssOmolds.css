@@ -102,6 +102,13 @@ body {
   margin-bottom: 60px;
 }
 
+
+.contenedorPrimario {
+  color:#000000 !important;
+  background-color:#FF0060 !important;
+}
+
+
 [tabindex="-1"]:focus {
   outline:none !important;
 }
@@ -9656,7 +9663,7 @@ input,  textarea {
 
 .question_om{
   font-size:25px;
-  color:#FF0060 ;
+  color:#FF0060;
 }
 
 /* @group FOOTER OMOLDS */
@@ -10131,13 +10138,14 @@ hr {
 /* @group MODAL CUADRADA*/
 
 #idmodalCuadrada { 
-	
+	position: relative;
 	margin: 0 auto;
 	width: 340px;
-	height: 210px;
-	background: #ffffff;
+	min-height: 210px;
+	background: #FAFAFA;
 	left: 0px; top: 0px; bottom: 0px; right: 0px;
 	z-index: 101;
+	
 }
 
 
@@ -10180,7 +10188,7 @@ hr {
     border-radius: 35px;
     font-size: 20px;
     line-height: 1.33;
-    border-color: #fafafa;    
+    border-color: #FAFAFA;    
     /*aqui se define la posicion del boton y que este adelante de todo*/
     z-index: 1500;
     position: fixed;
