@@ -9666,35 +9666,6 @@ input,  textarea {
   color:#FF0060;
 }
 
-/* @group FOOTER OMOLDS */
-
-.footerOmolds {
-  z-index:9;
-  width:100%;
-  background-color:#fafafa;
-  text-align:center;
-  position:fixed;
-  bottom:0px;
-  padding-top:8px;
-  padding-bottom:8px;
-  margin-bottom:0px !important;
-}
-
-.footerOmolds p {
-  margin:0px;
-  color:#000000;
-}
-
-.footerOmolds a {
-  color:#000000;
-}
-
-.footerOmolds a:hover {
-  color:#5f042a;
-}
-
-/* @end */
-
 /* @group HEADER OMOLDS */
 
 .headerOmolds {
@@ -9802,19 +9773,18 @@ input,  textarea {
 
 .footerOmolds p {
   margin:0px;
-  color: #808080;
+  color:#000000;
 }
 
 .footerOmolds a {
-  color:#5f042a;
+  color:#000000;
 }
 
 .footerOmolds a:hover {
-  color:#AF084D;
+  color:#5f042a;
 }
 
 /* @end */
-
 
 /* @group FOOTER OMOLDS OSCURO*/
 
