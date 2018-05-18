@@ -9792,11 +9792,12 @@ input,  textarea {
   width:100%;
   background-color:#fafafa;
   text-align:center;
-  position:fixed;
+  position:relative;
   bottom:0px;
   padding-top:8px;
   padding-bottom:8px;
   margin-bottom:0px !important;
+  top: 45px;
 }
 
 .footerOmolds p {
