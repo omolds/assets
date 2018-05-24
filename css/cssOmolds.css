@@ -10183,8 +10183,8 @@ hr {
 /* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
 .cajonBotonCuadrado {
-    height: 108px;
-    width: 108px;
+    height: 100px;
+    width: 100px;
     margin:3px;
     color:#ff0060;
     background-color:#cacaca;
