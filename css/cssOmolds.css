@@ -10188,6 +10188,7 @@ hr {
     margin:3px;
     color:#ff0060;
     background-color:#cacaca;
+    overflow: hidden;
     
 }
 
