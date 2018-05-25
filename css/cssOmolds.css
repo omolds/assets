@@ -9902,6 +9902,10 @@ a:hover {
   background-color:#CACACA;
 }
 
+.colorCajasPrincipalClaro {
+  background-color:#FF0060;
+}
+
 .colorCajasBlancas {
   background-color:#fafafa;
 }
@@ -10191,9 +10195,167 @@ hr {
 
 /* @end */
 
+/* @group BOTON CIRCULAR ABAJO ANIMADO  */
+  
+.CirculoGoogle-anim {
+    padding: 0px 0px;
+    border-radius: 35px;
+    font-size: 20px;
+    line-height: 1.33;
+    border-color: #FAFAFA;
+    z-index: 1501;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    margin-bottom: 135px;
+}
+
+.CirculoGoogleBase span {
+    -webkit-transform: none;
+    transform:         none;
+    -webkit-transition: -webkit-transform .500s cubic-bazier(.12,.45,.43,1.01);
+    transition:         transform .500s cubic-bazier(.12,.45,.43,1.01);
+}
+.CirculoGoogleBase.open {
+    -webkit-transform: scale(1.3,1.3);
+    transform:         scale(1.3,1.3);
+    -webkit-animation: toggleBtnAnim .500s;
+    animation:         toggleBtnAnim .500s;
+}
+.CirculoGoogleBase.open span {
+    -webkit-transform: rotate(0deg);
+    transform:         rotate(0deg);
+    -webkit-transition: -webkit-transform .500s cubic-bazier(.175,.67,.83,.67);
+    transition:         transform .500s cubic-bazier(.175,.67,.83,.67);
+}
+
+
+/BOTONES MENU TAMAÑO Y COLOR/
+.CirculoGoogle {
+  position: relative;
+    margin: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    background: #FF0060;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.275);
+    outline: none;
+}
+
+
+/ANIMACION BOTONES GENERALES/
+
+/*#botons {
+  height: 100px;
+}*/
+
+.list-CirculoGoogle-anim .boton {
+    position: relative;
+}
+
+
+/BLUR/
+
+.list-CirculoGoogle-anim .boton .boton1,
+.list-CirculoGoogle-anim .boton .boton2,
+.list-CirculoGoogle-anim .boton .boton3 {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -webkit-transition: all .500s;
+    transition:         all .500s;
+    cursor: pointer;
+}
+
+
+/POSICIONES INCIALES DE LOS BOTONES QUE SALEN/
+
+.list-CirculoGoogle-anim .boton .boton1 {
+    -webkit-transform: translate3d(0,85px,0) scale(.7,.7);
+    transform:         translate3d(0,85px,0) scale(.7,.7);
+}
+.list-CirculoGoogle-anim .boton .boton2 {
+    -webkit-transform: translate3d(0,180px,0) scale(.7,.7);
+    transform:         translate3d(0,180px,0) scale(.7,.7);
+}
+.list-CirculoGoogle-anim .boton .boton3 {
+    -webkit-transform: translate3d(0,267px,0) scale(.7,.7);
+    transform:         translate3d(0,267px,0) scale(.7,.7);
+}
+
+
+/VELOCIDAD DE MOVIMIENTO/
+
+.list-CirculoGoogle-anim .boton.scale-on .boton1, 
+.list-CirculoGoogle-anim  .boton.scale-on .boton2,
+.list-CirculoGoogle-anim .boton.scale-on .boton3 {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    -webkit-transform: none;
+    transform:         none;
+    -webkit-transition: all .500s;
+    transition:         all .500s;
+}
 
 
 
+.list-CirculoGoogle-anim li {
+    list-style-type: none;
+}
+
+.list-CirculoGoogle-anim {
+    margin-top: 0;s
+    margin-bottom: 20px;
+    margin-right: -7px;
+}
+
+
+
+
+/WEBKIT/
+
+@keyframes toggleBtnAnim {
+    0% {
+        -webkit-transform: scale(1,1);
+        transform:         scale(1,1);
+    }
+    25% {
+        -webkit-transform: scale(1.2,1.2);
+        transform:         scale(1.2,1.2); 
+    }
+    75% {
+        -webkit-transform: scale(1.2,1.2);
+        transform:         scale(1.2,1.2);
+    }
+    100% {
+        -webkit-transform: scale(1.3,1.3);
+        transform:         scale(1.3,1.3);
+    }
+}
+@-webkit-keyframes toggleBtnAnim {
+    0% {
+        -webkit-transform: scale(1,1);
+        transform:         scale(1,1);
+    }
+    25% {
+        -webkit-transform: scale(1.2,1.2);
+        transform:         scale(1.2,1.2); 
+    }
+    75% {
+        -webkit-transform: scale(1.2,1.2);
+        transform:         scale(1.2,1.2);
+    }
+    100% {
+        -webkit-transform: scale(1.3,1.3);
+        transform:         scale(1.3,1.3);
+    }
+}
+
+/* @end */
 
 /* @group BOTONES GRANDES CUADRADOS ICONO Y TEXTO */
 
@@ -10467,6 +10629,7 @@ hr {
 
 
 /* @end */
+
 
 #resultTypeField, #resultTypeField_up {
     height: auto;
