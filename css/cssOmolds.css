@@ -9661,6 +9661,13 @@ input,  textarea {
     
 }
 
+
+.bordeSecundario {
+	border-color: 3px;
+	color: red;  
+}
+
+
 .question_om{
   font-size:25px;
   color:#FF0060;
