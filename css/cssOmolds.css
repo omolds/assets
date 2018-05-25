@@ -9662,14 +9662,13 @@ input,  textarea {
 }
 
 .bordePrincipal {
-	border-color: 3px;
-	color: green;  
+	border:3px solid green !important;
+	
 }
 
 
 .bordeSecundario {
-	border-color: 3px;
-	color: red;  
+	border:3px solid red !important;
 }
 
 
