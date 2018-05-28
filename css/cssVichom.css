@@ -46,7 +46,7 @@
 	min-height: 100px;
 	/*max-width: 560px;*/
 	border: 2px solid white;
-	background: transparent url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
+	/*background: red url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;*/
 	background-size: 200% auto;
 	position: relative;
 	z-index: 10;
@@ -73,7 +73,7 @@
 	
 	width: 100%;
 	margin: auto; /*solo al agregarle el 0 antes del auto en imagenes funciona el centrado vertical pero en video no*/
-	background: blue url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;
+	/*background: blue url(https://omolds.github.io/assets/images/vichom/videoNoCargado.png) no-repeat center center;*/
 	left: 0px; top: 0px; bottom: 0px; right: 0px;
 
 
