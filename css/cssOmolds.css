@@ -9916,6 +9916,12 @@ a:hover {
 }
 
 
+.tamanoCajas90porciento {
+  width:90%;
+}
+
+
+
 
 .col-12.col-lg-8.col-xl-8.colorCajasBlancas.mx-auto .dataTable{
   min-height: 600px;
