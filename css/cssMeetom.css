@@ -1,6 +1,9 @@
 
 .headerClaroMeetom {
     padding-bottom:120px;
+    background-color: red;
+    background: url(https://omolds.github.io/assets/images/meetom/imgHome.jpg)no-repeat;
+    background-size:cover;
 }
 
 
