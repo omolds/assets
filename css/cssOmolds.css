@@ -10236,7 +10236,7 @@ hr {
 }
 
 
-/BOTONES MENU TAMAÑO Y COLOR/
+/*/BOTONES MENU TAMAÑO Y COLOR/*/
 .CirculoGoogle {
   position: relative;
     margin: 10px;
@@ -10254,7 +10254,7 @@ hr {
 }
 
 
-/ANIMACION BOTONES GENERALES/
+/*/ANIMACION BOTONES GENERALES/*/
 
 /*#botons {
   height: 100px;
@@ -10265,7 +10265,7 @@ hr {
 }
 
 
-/BLUR/
+/*/BLUR/*/
 
 .list-CirculoGoogle-anim .boton .boton1,
 .list-CirculoGoogle-anim .boton .boton2,
@@ -10278,7 +10278,7 @@ hr {
 }
 
 
-/POSICIONES INCIALES DE LOS BOTONES QUE SALEN/
+/*/POSICIONES INCIALES DE LOS BOTONES QUE SALEN/*/
 
 .list-CirculoGoogle-anim .boton .boton1 {
     -webkit-transform: translate3d(0,85px,0) scale(.7,.7);
@@ -10294,7 +10294,7 @@ hr {
 }
 
 
-/VELOCIDAD DE MOVIMIENTO/
+/*/VELOCIDAD DE MOVIMIENTO/*/
 
 .list-CirculoGoogle-anim .boton.scale-on .boton1, 
 .list-CirculoGoogle-anim  .boton.scale-on .boton2,
@@ -10314,7 +10314,7 @@ hr {
 }
 
 .list-CirculoGoogle-anim {
-    margin-top: 0;s
+    margin-top: 0;
     margin-bottom: 20px;
     margin-right: -7px;
 }
@@ -10322,7 +10322,7 @@ hr {
 
 
 
-/WEBKIT/
+/*/WEBKIT/*/
 
 @keyframes toggleBtnAnim {
     0% {
