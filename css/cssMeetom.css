@@ -12,3 +12,12 @@
 .headerClaroMeetom .txts{
    	margin-top: 60px;	     text-align: left;
 }
+
+
+.imgStickyScroll{
+	width: 200px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;	
+	/*stickytop en bootstrap deja el objeto por encima de cualquiera cosa como un super zindex*/
+}
