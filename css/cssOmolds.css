@@ -9646,7 +9646,7 @@ p, span, div, row, column, a, header, input, button, select, optgroup, textarea 
   font-size:13px;
   color:#000000;
   font-weight: 500;
-  word-wrap: break-word;
+  word-break: break-word;
 
 }
 
@@ -10083,7 +10083,7 @@ hr {
 	margin: 0 auto;
 	width: 250px;
 	height: 250px;
-	background: #ff0060;
+	background: #fafafa;
 	
 	
 	/*estos tres valores deben ser la mitad del tamaño*/
