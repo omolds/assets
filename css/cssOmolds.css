@@ -10096,6 +10096,24 @@ hr {
 }
 
 
+#idmodalCircularPrincipalOscuro { 
+  
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background: #5F042A;
+  
+  
+  /*estos tres valores deben ser la mitad del tamaño*/
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  
+  left: 0px; top: 0px; bottom: 0px; right: 0px;
+  z-index: 100;
+}
+
+
 .modalCircularContenedor {
   position: relative;
 
