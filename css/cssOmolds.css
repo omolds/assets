@@ -1806,9 +1806,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   vertical-align:middle;
 }
 
-.form-check-inline + .form-check-inline {
-  margin-left:0.75rem;
-}
+
 
 .invalid-feedback {
   display:none;
