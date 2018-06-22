@@ -1776,6 +1776,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   position:relative;
   display:block;
   margin-bottom:0.5rem;
+  width: 100%;
 }
 
 .form-check.disabled .form-check-label {
