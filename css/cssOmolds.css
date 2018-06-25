@@ -9869,6 +9869,10 @@ input,  textarea {
   width: 300px;
 }
 
+.chatAnchoMensajes {
+  width: 220px;
+}
+
 /* @end */
 
 
