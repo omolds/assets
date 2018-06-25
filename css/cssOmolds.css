@@ -9863,7 +9863,13 @@ input,  textarea {
 /* @end */
 
 
+/* @group CHAT*/
 
+.chatAncho {
+  width: 300px;
+}
+
+/* @end */
 
 
 /* @group PADDING*/
