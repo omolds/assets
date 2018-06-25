@@ -9868,6 +9868,12 @@ input,  textarea {
 
 /* @group PADDING*/
 
+
+.paddingCompleto10px {
+  padding: 10px;
+}
+
+
 .paddingCompleto15px {
   padding: 15px;
 }
