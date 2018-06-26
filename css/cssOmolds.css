@@ -9831,6 +9831,11 @@ input,  textarea {
   margin:14px;
 }
 
+
+.margenesCompletas5px {
+  margin:5px;
+}
+
 .margenesCompletas10px {
   margin:10px;
 }
@@ -9844,6 +9849,12 @@ input,  textarea {
 .margenesEspacio {
   margin:2px;
 }
+
+.margenesArribaAbajo5px {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
 
 .margenesArribaAbajo15px {
   margin-top:15px;
@@ -9865,21 +9876,23 @@ input,  textarea {
 
 /* @group CHAT*/
 
-.chatAncho {
+
+.chatAnchoMensajes {
   width: 300px;
 }
 
-.chatAnchoMensajes {
-  width: 190px;
-}
-
 .chatMensajesTiempo {
-  font-size: 3px;
+  font-size: 10px;
 }
 /* @end */
 
 
 /* @group PADDING*/
+
+
+.paddingCompleto5px {
+  padding: 5px;
+}
 
 
 .paddingCompleto10px {
