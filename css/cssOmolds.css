@@ -9655,7 +9655,8 @@ input,  textarea {
 }
 
 .inputLargo {
-    width: 99%;
+    width: 95%;
+    height: 30px;
     color:#858585;
     
 }
@@ -10027,12 +10028,34 @@ hr {
   position:absolute;
   height:100%;
   z-index:50;
-  opacity:0.7;
+  opacity:0.9;
   display:block;
   top:0;
   color:#ffffff;
   background-color:#010101;
 }
+
+
+#idmodalChatImagen { 
+  
+  margin: 0 auto;
+  font-size: 100px;
+/*  width: 250px;
+  height: 250px;
+  background: #fafafa;*/
+  
+  
+  /*estos tres valores deben ser la mitad del tamaño*/
+/*  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;*/
+  
+  left: 0px; top: 0px; bottom: 0px; right: 0px;
+  z-index: 100;
+}
+
+
+
 
 
 
