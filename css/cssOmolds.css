@@ -9882,6 +9882,10 @@ input,  textarea {
   width: 300px;
 }
 
+.chatAnchoPersonas {
+  width: 97%;
+}
+
 .chatMensajesTiempo {
   font-size: 10px;
 }
