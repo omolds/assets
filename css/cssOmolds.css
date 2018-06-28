@@ -9886,6 +9886,11 @@ input,  textarea {
   width: 97%;
 }
 
+.chatAnchoAltoImagen {
+  width: 40px;
+  height: 40px;
+}
+
 .chatMensajesTiempo {
   font-size: 10px;
 }
