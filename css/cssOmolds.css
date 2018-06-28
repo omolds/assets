@@ -9832,6 +9832,10 @@ input,  textarea {
   margin:14px;
 }
 
+.margenesArriba10porCiento {
+  margin-top:10%;
+}
+
 
 .margenesCompletas5px {
   margin:5px;
