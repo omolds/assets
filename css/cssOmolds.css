@@ -9804,12 +9804,14 @@ input,  textarea {
   width:100%;
   background-color: #5f042a;
   text-align:center;
-  position:fixed;
+  position:absolute;
   bottom:0px;
   padding-top:8px;
   padding-bottom:8px;
   margin-bottom:0px !important;
 }
+
+
 
 .footerOmoldsOscuro p {
   margin:0px;
