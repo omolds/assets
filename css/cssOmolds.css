@@ -10048,17 +10048,7 @@ hr {
 #idmodalChatImagen { 
   
   margin: 0 auto;
-  font-size: 100px;
-/*  width: 250px;
-  height: 250px;
-  background: #fafafa;*/
-  
-  
-  /*estos tres valores deben ser la mitad del tamaño*/
-/*  -moz-border-radius: 150px;
-  -webkit-border-radius: 150px;
-  border-radius: 150px;*/
-  
+  font-size: 100px;  
   left: 0px; top: 0px; bottom: 0px; right: 0px;
   z-index: 100;
 }
