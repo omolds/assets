@@ -10748,6 +10748,15 @@ hr {
     padding: 7px !important;
 }
 
+.moreButom  .btn.btn-primary.btn-circle.btnCircular.moreOption, #resultTypeField_up  .btn.btn-primary.btn-circle.btnCircular.moreOption{
+    position: relative !important;
+    left: 94% !important;
+    top: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 7px !important;
+}
+
 #resultTypeField .form-check-label, #resultTypeField_up .form-check-label{
   width: 100% !important;
 }
