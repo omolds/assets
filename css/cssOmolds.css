@@ -10765,6 +10765,15 @@ hr {
   cursor: pointer;
 }
 
+
+.bootstrap-select.btn-group .dropdown-menu li a .text{
+  cursor: pointer;
+}
+
+audio{
+  width: 98%;
+}
+
 /* @group CURSOR*/
 
 
@@ -10803,17 +10812,6 @@ hr {
 .nwse-resize     { cursor: nwse-resize; }
 
 /* @end */
-
-
-.bootstrap-select.btn-group .dropdown-menu li a .text{
-  cursor: pointer;
-}
-
-audio{
-  width: 98%;
-}
-
-
 
 /* @group AUTOCOMPLETAR INPUT */
 
@@ -11334,6 +11332,29 @@ audio{
 }
 /* @end */
 
+
+
+/* @group DROPDOWN SUBMENU DE NAVEGACION */
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+/* @end */
 
 
 
