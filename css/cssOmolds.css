@@ -11357,7 +11357,57 @@ audio{
 /* @end */
 
 
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 13px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
 
+
+
+.dropdown-submenu .dropdown-menu {
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 100%;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    margin-left: -3px;
+    top: 100%;
+    left: 10px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 1px;
+    /* color: #ff0060; */
+    text-align: left;
+    list-style: none;
+    background-color: #cacaca;
+    /* background-clip: padding-box; */
+    /* border: 2px solid #858585; */
+    /* border-color: #ff0060; */
+    /* border: solid; */
+    border-bottom: 1px;
+    border-radius: 0px;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: auto;
+    top: 0.6em;
+}
 
  
 
