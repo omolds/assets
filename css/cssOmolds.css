@@ -10252,7 +10252,29 @@ hr {
 
 /* @end */
 
+/* @group MODAL IZQUIERDA MAQUETADOR PLANTILLAS*/
 
+.modalIzquierda {
+    
+    width: 330px;
+    /*background-color: blue;*/
+
+}
+
+
+.modalIzquierdaInput {
+    
+	height:35px;
+	width:100%;
+	border-radius: 0;
+
+}
+
+
+
+
+
+/* @end */
 
 /* @group BOTON CIRCULAR ABAJO*/
 
