@@ -9862,6 +9862,10 @@ input,  textarea {
   margin-bottom:5px;
 }
 
+.margenesArribaAbajo10px {
+  margin-top:10px;
+  margin-bottom:10px;
+}
 
 .margenesArribaAbajo15px {
   margin-top:15px;
