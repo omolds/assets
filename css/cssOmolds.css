@@ -10980,6 +10980,14 @@ audio{
  *
  * @author Brian Reavis <brian@thirdroute.com>
  */
+ 
+ #buscador .selectize-dropdown.form-control.autocomplete{
+    position: absolute;
+    top: 44px;
+    width: 97%;
+ }
+
+ 
 .selectize-control.plugin-drag_drop.multi > .selectize-input > div.ui-sortable-placeholder {
   visibility: visible !important;
   background: #f2f2f2 !important;
