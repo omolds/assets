@@ -6683,6 +6683,10 @@ a.bg-dark:focus, a.bg-dark:hover {
   width:75% !important;
 }
 
+.w-90 {
+  width:90% !important;
+}
+
 .w-100 {
   width:100% !important;
 }
@@ -6697,6 +6701,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .h-75 {
   height:75% !important;
+}
+
+.h-90 {
+  height:90% !important;
 }
 
 .h-100 {
