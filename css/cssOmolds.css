@@ -6671,6 +6671,10 @@ a.bg-dark:focus, a.bg-dark:hover {
   clip-path:none;
 }
 
+
+
+
+
 .w-25 {
   width:25% !important;
 }
@@ -6748,6 +6752,17 @@ a.bg-dark:focus, a.bg-dark:hover {
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
+
+
+
+.fs-10 {
+	font-size:10px !important;
+}
+
+.fs-80 {
+	font-size:80px !important;
+}
+
 
 .m-1 {
   margin:0.25rem !important;
@@ -10016,9 +10031,7 @@ input,  textarea {
 /* @group CHAT*/
 
 
-.chatAnchoMensajes {
-  width: 300px;
-}
+
 
 .chatAnchoPersonas {
   width: 97%;
@@ -10029,9 +10042,7 @@ input,  textarea {
   height: 40px;
 }
 
-.chatMensajesTiempo {
-  font-size: 10px;
-}
+
 /* @end */
 
 
