@@ -10036,7 +10036,7 @@ input,  textarea {
 /* @end */
 
 
-/* @group CHAT*/
+/* @group CHAT GLOBAL*/
 
 
 
@@ -10049,6 +10049,9 @@ input,  textarea {
   width: 40px;
   height: 40px;
 }
+
+
+
 
 
 /* @end */
@@ -10890,6 +10893,7 @@ hr {
 
 /* @end */
 
+/* @group RESULT TYPEFIELD */
 
 #resultTypeField, #resultTypeField_up {
     height: auto;
@@ -10936,6 +10940,8 @@ hr {
 #resultTypeField .form-check-label, #resultTypeField_up .form-check-label{
   width: 100% !important;
 }
+
+/* @end */
 
 .video, .imagen{
   cursor: pointer;
@@ -11576,6 +11582,31 @@ audio{
 
 
 /* @end */
+
+
+
+
+.dropzone {
+	
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background: #FFCC00;
+    z-index: 2000;
+    opacity: 0.9;
+    border: 0;
+    padding: 0;
+  	
+}
+
+
+section {
+  width:100%;
+  height:100%;
+  border:none;
+  overflow:hidden;
+}
 
 
 
