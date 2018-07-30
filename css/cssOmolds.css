@@ -10050,6 +10050,30 @@ input,  textarea {
   height: 40px;
 }
 
+.chatBarraSuperior {
+	position: fixed;
+	width: 100%;
+	z-index: 2500;
+	top: 0;
+	left: 0;	
+}
+
+
+.chatBarraOpciones {
+	position: fixed;
+	width: 100%;
+	z-index: 2400;
+	top: 50px;
+	left: 0;	
+}
+
+.chatEscribirMensaje {
+	position: fixed;
+	width: 100%;
+	z-index: 1999;
+	bottom: 0;
+	left: 0;
+}
 
 
 
@@ -11588,7 +11612,7 @@ audio{
 
 .dropzone {
 	
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     right: 0px;
@@ -11596,7 +11620,8 @@ audio{
     z-index: 2000;
     opacity: 0.9;
     border: 0;
-    padding: 0;
+    padding: 52px 0 0 0;
+    height: 100%;
   	
 }
 
@@ -11607,6 +11632,21 @@ section {
   border:none;
   overflow:hidden;
 }
+
+
+.derechaIframe {
+  position:fixed;
+  bottom:0;
+  height: 300px;
+  width: 260px;
+  border: 0;
+  /*top: auto;
+  right: 0;
+  left: auto;*/
+}
+
+
+
 
 
 
