@@ -615,6 +615,28 @@ mark, .mark {
   height:auto;
 }
 
+.img-thumbnail40 {
+  padding:0.25rem;
+  background-color:#fafafa;
+  border:1px solid #dddddd;
+  border-radius:0.25rem;
+  transition:all 0.2s ease-in-out;
+  max-width:100%;
+  height:40px;
+  width: 40px;
+}
+
+.img-thumbnail70 {
+  padding:0.25rem;
+  background-color:#fafafa;
+  border:1px solid #dddddd;
+  border-radius:0.25rem;
+  transition:all 0.2s ease-in-out;
+  max-width:100%;
+  height:70px;
+  width: 70px;
+}
+
 .figure {
   display:inline-block;
 }
@@ -7080,6 +7102,18 @@ a.bg-dark:focus, a.bg-dark:hover {
   padding-top:3rem !important;
 }
 
+.pt-6 {
+  padding-top:4rem !important;
+}
+
+.pt-7 {
+  padding-top:5rem !important;
+}
+
+.pt-8 {
+  padding-top:6rem !important;
+}
+
 .pr-5 {
   padding-right:3rem !important;
 }
@@ -9812,6 +9846,14 @@ input,  textarea {
     
 }
 
+.input100 {
+    width: 100%;
+    height: 30px;
+    color:#858585;
+    
+}
+
+
 .bordePrincipal {
 	border:1px solid #FF0060 !important;
 	
@@ -10042,13 +10084,9 @@ input,  textarea {
 
 
 .chatAnchoPersonas {
-  width: 97%;
+  width: 100%;
 }
 
-.chatAnchoAltoImagen {
-  width: 40px;
-  height: 40px;
-}
 
 .chatBarraSuperior {
 	position: fixed;
@@ -11616,7 +11654,7 @@ audio{
     left: 0px;
     top: 0px;
     right: 0px;
-    background: #FFCC00;
+    background: #FAFAFA;
     z-index: 2000;
     opacity: 0.9;
     border: 0;
