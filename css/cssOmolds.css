@@ -6784,9 +6784,12 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 
-
 .fs-10 {
 	font-size:10px !important;
+}
+
+.fs-40 {
+	font-size:40px !important;
 }
 
 .fs-80 {
