@@ -6263,3 +6263,14 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+    
+    
+ 
+
+/* @group ESTILOS EXTRA */
+
+   .w-15 {
+  width: 15% !important; 
+  }
+
+/* @end */
