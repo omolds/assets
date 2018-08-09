@@ -6265,25 +6265,3 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
     
     
- 
-
-/* @group ESTILOS EXTRA */
-
-   .w-15 {
-  width: 15% !important; 
-  }
-
-   .fs30 {
-	font-size: 30px;
-  }
-   .fs60 {
-	font-size: 60px;
-  }
-  
-/* @end */
-
-/* @group ESTILOS CSSOMOLDS */
-
-
-
-/* @end */
