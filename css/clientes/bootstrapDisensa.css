@@ -25,8 +25,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Montserrat;
-  --font-family-monospace: Montserrat 
+  --font-family-sans-serif: 'Lobster', cursive;
+  --font-family-monospace: 'Lobster', cursive; 
   }
 
 *,
@@ -50,7 +50,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin:0;
-  font-family: Montserrat;
+  font-family: 'Lobster', cursive;
   font-size:1rem;
   font-weight:400;
   line-height:1.5;
