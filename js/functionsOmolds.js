@@ -19,3 +19,12 @@ $(document).ready(function(){
         $("#miPropioID").slideDown(300);
     });
 });
+
+
+
+//LIBRERIA: jquery.min.js
+//MUESTRA UN PEQUEÑO MENSAJE SOBRE EL BOTON QUE SE HACE ROLLOVER
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
